@@ -1,6 +1,6 @@
 ## DeepCAD
 
-[logo](images/logo.png)
+[logo](tree/master/images/logo.png)
 
 DeepCAD model aims at denoising dynamic calcium imaging data ,after which it becomes easier to  extract calcium signals and neuronal contours. DeepCAD is an unsupervised deep learning model mainly based on 3D Unet and noise2noise method. Thus it is user-friendly without time-consuming process of preparing training datasets. 
 
