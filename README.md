@@ -8,7 +8,7 @@
 
 - [Overview](#overview)
 - [Directory structure](#directory-structure)
-- [System Environment](#operation-environment)
+- [Operation Environment](#operation-environment)
 - [Demo](#demo)
 - [Fiji plugin](#fiji-plugin)
 - [Results](#results)
