@@ -1,14 +1,34 @@
-## DeepCAD
+# DeepCAD: 
 
 ![logo](https://github.com/cabooster/DeepCAD/blob/master/images/logo.PNG)
 
+# Contents
+
+<img src="images/logo4.jpg" width="600" align="right">
+
+- [Overview](#overview)
+- [Directory structure](#directory-structure)
+- [System Environment](#operation-environment)
+- [Demo](#demo)
+- [Fiji plugin](#fiji-plugin)
+- [Results](#results)
+- [License](./LICENSE)
+- [Citation](#citation)
+
+
 DeepCAD model aims at denoising dynamic calcium imaging data ,after which it becomes easier to  extract calcium signals and neuronal contours. DeepCAD is an unsupervised deep learning model mainly based on 3D Unet and noise2noise method. Thus it is user-friendly without time-consuming process of preparing training datasets. 
 
-## DeepCAD model
+# Overview
+
+Our work is based on Cycle-consistent Generative Adversarial Networks (**CycleGANs**) [[paper]](http://openaccess.thecvf.com/content_iccv_2017/html/Zhu_Unpaired_Image-To-Image_Translation_ICCV_2017_paper.html), which makes unsupervised training of CNNs possible and is really illuminating.
+
+<img src="images/schematic.jpg" width="275" align="right">
+
+We propose **UTOM**, an unsupervised content-preserving transform method for optical microscopy. By imposing a saliency constraint, UTOM can locate the image content and keep the saliency map almost unchanged when transformed from the source domain to the target domain. Semantic information can thus be preserved. We demonstrated several transformation tasks including *in silico* histological staining, fluorescence image restoration (denoising, axial resolution restoration, and super-resolution reconstruction), and virtual fluorescence labeling, to illustrate the capability and stability of UTOM.
 
 
 
-## Directory structure
+# Directory structure
 
 The file structure is shown below:
 
@@ -55,13 +75,14 @@ DeepCAD
 |---|---|---|---#Results of training process and final test#
 ```
 
-## Environment
+# Demo
+## Operation environment 
 
 * ubuntu 16.0 + python 3.6.2 + Pytorch 1.3.1+ Tensorflow 1.4.0
 * NATLAB
 * NVIDIA GPU + cuda
 
-## Building environment
+## Build the environment (Tensorflow)
 
 Open the terminal of ubuntu system.
 
@@ -100,7 +121,7 @@ $ pip install numpy=1.16.2
 ......
 ```
 
-## For Pytorch code
+## Pytorch code
 
 #### For training
 
@@ -132,13 +153,13 @@ Parameters can be modified  as required.
 $ os.system('python test.py --denoise_model #pth model name#')
 ```
 
-## For Fiji plugin
+# Fiji plugin
 
-#### Install Fiji plugin
+## Install Fiji plugin
 
 Download the executable jar file. Install the plugin via Fiji > Plugin > Install.
 
-#### Develop a pre-trained model
+## Develop a pre-trained model
 
 First you should train a DeepCAD model based on the Tensorflow code.
 
@@ -155,7 +176,7 @@ $ python main.py --GPU #GPU index# --img_h #stack height# --img_w #stack width# 
 
 The pre-trained model is saved at DeepCAD_Fiji/DeepCAD_tensorflow/DeepCAD_model/. 
 
-#### Use Fiji plugin
+## Use Fiji plugin
 
 1.Download the example image from **this link** and open it by Fiji. 
 
@@ -165,13 +186,13 @@ The pre-trained model is saved at DeepCAD_Fiji/DeepCAD_tensorflow/DeepCAD_model/
 
 4.Click "OK" and obtain the denoising result after 10 minutes.
 
-## Some results
+# Results
 
 ![result_1](https://github.com/cabooster/DeepCAD/blob/master/images/result_1.png)
 
 ![result_2](https://github.com/cabooster/DeepCAD/blob/master/images/result_2.PNG)
 
-## Citation
+# Citation
 
 If you use this code please cite the companion paper where original methods appeared: 
 
