@@ -2,18 +2,20 @@
 
 <img src="images/logo.PNG" width="900" align="middle">
 
-# Overview
+
+# Contents
 
 <img src="images/schematic.png" width="300" align="right">
 
+- [Overview](#overview)
 - [Directory structure](#directory-structure)
-- [Operation Environment](#operation-environment)
-- [Demo](#demo)
+- [Getting started](#getting-started)
 - [Fiji plugin](#fiji-plugin)
 - [Results](#results)
 - [License](./LICENSE)
 - [Citation](#citation)
 
+# Overview
 
 DeepCAD model aims at denoising dynamic calcium imaging data, after which it becomes easier to extract calcium signals and neuronal contours. DeepCAD is an unsupervised deep learning model mainly based on 3D U-net and noise2noise method. Thus it is user-friendly without time-consuming process of preparing training datasets.
 
@@ -68,8 +70,8 @@ DeepCAD
 |---|---|---|---#Results of training process and final test#
 ```
 
-# Demo
-## Operation environment 
+# Getting Started
+## Environment 
 
 * ubuntu 16.0 + python 3.6.2 + Pytorch 1.3.1+ Tensorflow 1.4.0
 * NATLAB
@@ -116,7 +118,7 @@ $ pip install numpy=1.16.2
 
 ## Pytorch code
 
-#### For training
+#### Training
 
 Run the script.py(training part) to begin your train.
 
@@ -131,7 +133,7 @@ Parameters can be modified correctly.
 $ os.system('python train.py --datasets_folder #project name# --img_h #stack height# --img_w #stack width# --img_s #stack length# --gap_h #stack gap height# --gap_w #stack gap width# --gap_s #stack gap length# --n_epochs #training epoch number# --GPU #GPU index# --normalize_factor #image normalizefactor#')
 ```
 
-#### For testing
+#### Test
 
 Run the script.py (test part) to begin your test. Parameters saved in the .yaml file will be automatically loaded.
 
