@@ -1,10 +1,10 @@
 # DeepCAD: 
 
-![logo](https://github.com/cabooster/DeepCAD/blob/master/images/logo.PNG)
+<img src="images/logo.PNG" width="400" align="middle">
 
 # Contents
 
-<img src="images/schematic.png" width="400" align="right">
+<img src="images/schematic.png" width="350" align="right">
 
 - [Overview](#overview)
 - [Directory structure](#directory-structure)
