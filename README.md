@@ -4,7 +4,7 @@
 
 # Contents
 
-<img src="images/schematic.png" width="300" align="right">
+<img src="images/schematic.png" width="400" align="right">
 
 - [Overview](#overview)
 - [Directory structure](#directory-structure)
