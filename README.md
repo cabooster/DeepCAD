@@ -2,9 +2,10 @@
 
 <img src="images/logo.PNG" width="900" align="middle">
 
-# Contents
+# Overview
 
-- [Overview](#overview)
+<img src="images/schematic.png" width="300" align="right">
+
 - [Directory structure](#directory-structure)
 - [Operation Environment](#operation-environment)
 - [Demo](#demo)
@@ -14,16 +15,7 @@
 - [Citation](#citation)
 
 
-
-# Overview
-
-<img src="images/schematic.png" width="300" align="right">
-
-DeepCAD model aims at denoising dynamic calcium imaging data, after which it becomes easier to extract calcium signals and neuronal contours. DeepCAD is an unsupervised deep learning model mainly based on 3D U-net and noise2noise method. Thus it is user-friendly without time-consuming process of preparing training datasets. 
-
-Our work is based on Cycle-consistent Generative Adversarial Networks (**CycleGANs**) [[paper]](http://openaccess.thecvf.com/content_iccv_2017/html/Zhu_Unpaired_Image-To-Image_Translation_ICCV_2017_paper.html), which makes unsupervised training of CNNs possible and is really illuminating.
-
-We propose **UTOM**, an unsupervised content-preserving transform method for optical microscopy. By imposing a saliency constraint, UTOM can locate the image content and keep the saliency map almost unchanged when transformed from the source domain to the target domain. Semantic information can thus be preserved. We demonstrated several transformation tasks including *in silico* histological staining, fluorescence image restoration (denoising, axial resolution restoration, and super-resolution reconstruction), and virtual fluorescence labeling, to illustrate the capability and stability of UTOM.
+DeepCAD model aims at denoising dynamic calcium imaging data, after which it becomes easier to extract calcium signals and neuronal contours. DeepCAD is an unsupervised deep learning model mainly based on 3D U-net and noise2noise method. Thus it is user-friendly without time-consuming process of preparing training datasets.
 
 
 # Directory structure
