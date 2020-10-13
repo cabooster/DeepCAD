@@ -171,7 +171,8 @@ The pre-trained model is saved at DeepCAD_Fiji/DeepCAD_tensorflow/DeepCAD_model/
 
 ![result_2](https://github.com/cabooster/DeepCAD/blob/master/images/result_2.PNG)
 
-## Citation and detailed manual
+## Citation
 
-A paper explaining most of the effectuation details can be found here.
+If you use this code please cite the companion paper where original methods appeared: 
 
+["*Unsupervised content-preserving transformation for optical microscopy*".](https://www.biorxiv.org/content/10.1101/848077v1.abstract)
