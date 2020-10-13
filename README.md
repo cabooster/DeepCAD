@@ -173,13 +173,13 @@ The pre-trained model is saved at DeepCAD_Fiji/DeepCAD_tensorflow/DeepCAD_model/
 
 ## Use Fiji plugin
 
-1.Download the example image from **this link** and open it by Fiji. 
+1. Download the example image from **this link** and open it with Fiji. 
 
-2.Click on Plugins > DeepCAD. 
+2. Click on Plugins > DeepCAD. 
 
-3.Set six parameters on panel and select the target model. 
+3. Set six parameters on panel and select the target model. 
 
-4.Click "OK" and obtain the denoising result after 10 minutes.
+4. Click "OK" and obtain the denoising result after 10 minutes.
 
 # Results
 
