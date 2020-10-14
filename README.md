@@ -184,8 +184,7 @@ The pre-trained model is saved at DeepCAD_Fiji/DeepCAD_tensorflow/DeepCAD_model/
 
 # Results
 
-<img src="images/result_1.png" width="800" align="middle">
-<img src="images/result_2.png" width="800" align="middle">
+<img src="images/result_1.png" width="900" align="middle">
 
 
 # Citation
