@@ -184,8 +184,9 @@ The pre-trained model is saved at DeepCAD_Fiji/DeepCAD_tensorflow/DeepCAD_model/
 
 # Results
 
-<img src="images/result_1.png" width="900" align="middle">
+Below shows the performance of DeepCAD on denoising two-photon calcium imaging data of a transgenic mouse expressing GCaMP6f.
 
+<img src="images/result_1.png" width="1000" align="middle">
 
 # Citation
 
