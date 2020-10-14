@@ -2,7 +2,6 @@
 
 <img src="images/logo.PNG" width="900" align="middle">
 
-
 # Contents
 
 - [Overview](#overview)
@@ -185,7 +184,8 @@ The pre-trained model is saved at DeepCAD_Fiji/DeepCAD_tensorflow/DeepCAD_model/
 
 # Results
 
-![result_1](https://github.com/cabooster/DeepCAD/blob/master/images/result_1.png)
+<img src="images/result_1.PNG" width="800" align="middle">
+<img src="images/result_2.PNG" width="800" align="middle">
 
 
 # Citation
