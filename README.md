@@ -4,13 +4,13 @@
 
 ## Contents
 
-- [Overview](##overview)
-- [Directory structure](##directory-structure)
-- [Python code](##python-code)
-- [Fiji plugin](##fiji-plugin)
-- [Results](##results)
+- [Overview](#overview)
+- [Directory structure](#directory-structure)
+- [Python code](#python-code)
+- [Fiji plugin](#fiji-plugin)
+- [Results](#results)
 - [License](./LICENSE)
-- [Citation](##citation)
+- [Citation](#citation)
 
 ## Overview
 
