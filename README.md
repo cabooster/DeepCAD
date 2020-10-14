@@ -72,9 +72,11 @@ DeepCAD
 ## Python code
 ### Environment 
 
-* ubuntu 16.0 + python 3.6.2 + Pytorch 1.3.1+ Tensorflow 1.4.0
-* NATLAB
-* NVIDIA GPU + cuda
+* Ubuntu 16.04 
+* Python 3.6 + 
+* Pytorch 1.3.1
+* Tensorflow 1.4.0
+* NVIDIA GPU + CUDA
 
 ### Build the environment (Tensorflow)
 
