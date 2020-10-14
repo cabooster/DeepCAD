@@ -2,17 +2,17 @@
 
 <img src="images/logo.PNG" width="900" align="middle">
 
-# Contents
+## Contents
 
-- [Overview](#overview)
-- [Directory structure](#directory-structure)
-- [Getting started](#getting-started)
-- [Fiji plugin](#fiji-plugin)
-- [Results](#results)
+- [Overview](##overview)
+- [Directory structure](##directory-structure)
+- [Python code](##python-code)
+- [Fiji plugin](##fiji-plugin)
+- [Results](##results)
 - [License](./LICENSE)
-- [Citation](#citation)
+- [Citation](##citation)
 
-# Overview
+## Overview
 
 <img src="images/schematic.png" width="300" align="right">
 
@@ -22,7 +22,7 @@ DeepCAD model aims at denoising dynamic calcium imaging data, after which it bec
 
 DeepCAD model aims at denoising dynamic calcium imaging data, after which it becomes easier to extract calcium signals and neuronal contours. DeepCAD is an unsupervised deep learning model mainly based on 3D U-net and noise2noise method. Thus it is user-friendly without time-consuming process of preparing training datasets.
 
-# Directory structure
+## Directory structure
 
 The file structure is shown below:
 
@@ -69,14 +69,14 @@ DeepCAD
 |---|---|---|---#Results of training process and final test#
 ```
 
-# Getting Started
-## Environment 
+## Python code
+### Environment 
 
 * ubuntu 16.0 + python 3.6.2 + Pytorch 1.3.1+ Tensorflow 1.4.0
 * NATLAB
 * NVIDIA GPU + cuda
 
-## Build the environment (Tensorflow)
+### Build the environment (Tensorflow)
 
 Open the terminal of ubuntu system.
 
@@ -115,9 +115,9 @@ $ pip install numpy=1.16.2
 ......
 ```
 
-## Pytorch code
+### Pytorch code
 
-#### Training
+##### Training
 
 Run the script.py(training part) to begin your train.
 
@@ -132,7 +132,7 @@ Parameters can be modified correctly.
 $ os.system('python train.py --datasets_folder #project name# --img_h #stack height# --img_w #stack width# --img_s #stack length# --gap_h #stack gap height# --gap_w #stack gap width# --gap_s #stack gap length# --n_epochs #training epoch number# --GPU #GPU index# --normalize_factor #image normalizefactor#')
 ```
 
-#### Test
+##### Test
 
 Run the script.py (test part) to begin your test. Parameters saved in the .yaml file will be automatically loaded.
 
@@ -147,13 +147,13 @@ Parameters can be modified  as required.
 $ os.system('python test.py --denoise_model #pth model name#')
 ```
 
-# Fiji plugin
+## Fiji plugin
 
-## Install Fiji plugin
+### Install Fiji plugin
 
 Download the executable jar file. Install the plugin via Fiji > Plugin > Install.
 
-## Develop a pre-trained model
+### Develop a pre-trained model
 
 First you should train a DeepCAD model based on the Tensorflow code.
 
@@ -170,7 +170,7 @@ $ python main.py --GPU #GPU index# --img_h #stack height# --img_w #stack width# 
 
 The pre-trained model is saved at DeepCAD_Fiji/DeepCAD_tensorflow/DeepCAD_model/. 
 
-## Use Fiji plugin
+### Use Fiji plugin
 
 1.  Open Fiji.
 
@@ -182,13 +182,13 @@ The pre-trained model is saved at DeepCAD_Fiji/DeepCAD_tensorflow/DeepCAD_model/
 
 5.  Click ‘OK’ and the denoised result will be displayed in another window after several minutes (depends on your data size).
 
-# Results
+## Results
 
 Below shows the performance of DeepCAD on denoising two-photon calcium imaging data of a transgenic mouse expressing GCaMP6f.
 
 <img src="images/result_1.png" width="1000" align="middle">
 
-# Citation
+## Citation
 
 If you use this code please cite the companion paper where original methods appeared: 
 
