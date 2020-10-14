@@ -173,13 +173,15 @@ The pre-trained model is saved at DeepCAD_Fiji/DeepCAD_tensorflow/DeepCAD_model/
 
 ## Use Fiji plugin
 
-1. Download the example image from **this link** and open it with Fiji. 
+1.  Open Fiji.
 
-2. Click on Plugins > DeepCAD. 
+2.  Open the calcium imaging stack to be denoised.
 
-3. Set six parameters on panel and select the target model. 
+3.  Open the plugin at: Plugins > DeepCAD.
 
-4. Click "OK" and obtain the denoising result after 10 minutes.
+4.  Select the pre-trained model and set six parameters on the panel (with default values and no changes are required unless necessary).
+
+5.  Click ‘OK’ and the denoised result will be displayed in another window after several minutes (depends on your data size).
 
 # Results
 
