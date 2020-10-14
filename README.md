@@ -1,4 +1,4 @@
-# DeepCAD: 
+## DeepCAD: 
 
 <img src="images/logo.PNG" width="900" align="middle">
 
