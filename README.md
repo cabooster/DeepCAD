@@ -14,15 +14,19 @@
 - [License](./LICENSE)
 - [Citation](#citation)
 
-Calcium imaging is inherently susceptible to detection noise (photon noise and electronic noise) especially when imaging with high frame rate or under low excitation dose. We developed DeepCAD, a deep self-supervised learning-based method for calcium imaging denoising. Using our method, detection noise can be largely removed and the accuracy of neuron extraction and spike inference is highly improved.
+Calcium imaging is inherently susceptible to detection noise especially when imaging with high frame rate or under low excitation dose. We developed DeepCAD, a deep self-supervised learning-based method for calcium imaging denoising. Using our method, detection noise can be largely removed and the accuracy of neuron extraction and spike inference is highly improved.
 
 DeepCAD is based on the insight that a deep denoising network can achieve satisfactory convergence even the target image used for training is another corrupted sampling of the same scene. We explored the temporal redundancy of calcium imaging and found that any two consecutive frames can be regarded as two independent samplings of a same underlying firing pattern. Furthermore, to boost its performance on 3D temporal stacks, the input and output data are designed to be 3D volumes rather than 2D frames to fully incorporate the abundant information along time axis.
 
 ## Directory structure
 
-The file structure is shown below:
+The file structure is summarized below:
 
-DeepCAD_pytorch consists of the deep neural network implemented by Pytorch(https://pytorch.org/) and the data processing code implemented by Matlab(https://www.mathworks.com/products/matlab.html). DeepCAD_Fiji intents on realizing a easily operated Fiji plugin. DeepCAD_Fiji_plugin contains the executable jar file which can be installed on Fiji. DeepCAD_java is java source code of DeepCAD Fiji plugin. DeepCAD_tensorflow is the neural network executed by Tensorflow(https://www.tensorflow.org/) for generating pre-trained model.
+DeepCAD_pytorch is the [Pytorch](https://pytorch.org/) implementation of DeepCAD.
+DeepCAD_tensorflow is the [Tensorflow](https://www.tensorflow.org/) implementation of DeepCAD.
+DeepCAD_Fiji is a user-friendly [Fiji](https://imagej.net/Fiji) plugin. This plugin is easy to install and convenient to use. Researchers without expertise in computer science and machine learning can learn to use it in a very short time. DeepCAD_Fiji_plugin contains the executable .jar file that can be installed on Fiji. 
+DeepCAD_java is the java source code of our Fiji plugin based on [CSBDeep](https://csbdeep.bioimagecomputing.com). 
+
 
 ```
 DeepCAD
