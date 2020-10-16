@@ -1,6 +1,6 @@
 ## DeepCAD: 
 
-<img src="images/logo.PNG" width="900" align="middle">
+<img src="images/logo.PNG" width="1000" align="middle">
 
 ## Contents
 
@@ -157,7 +157,7 @@ $ os.system('python test.py --denoise_model #pth model name#')
 
 To ameliorate the difficulty of using our deep self-supervised learning-based method, we developed a user-friendly Fiji plugin. This plugin is easy to install and convenient to use. Researchers without expertise in computer science and machine learning can learn to use it in a very short time. 
 
-<img src="images/fiji.png" width="900" align="middle">
+<img src="images/fiji.png" width="1000" align="middle">
 
 ### Install Fiji plugin
 
