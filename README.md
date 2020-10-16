@@ -22,10 +22,12 @@ DeepCAD is based on the insight that a deep denoising network can achieve satisf
 
 The file structure is summarized below:
 
-DeepCAD_pytorch is the [Pytorch](https://pytorch.org/) implementation of DeepCAD.
-DeepCAD_tensorflow is the [Tensorflow](https://www.tensorflow.org/) implementation of DeepCAD.
-DeepCAD_Fiji is a user-friendly [Fiji](https://imagej.net/Fiji) plugin. This plugin is easy to install and convenient to use. Researchers without expertise in computer science and machine learning can learn to use it in a very short time. DeepCAD_Fiji_plugin contains the executable .jar file that can be installed on Fiji. 
-DeepCAD_java is the java source code of our Fiji plugin based on [CSBDeep](https://csbdeep.bioimagecomputing.com). 
+- DeepCAD_pytorch is the [Pytorch](https://pytorch.org/) implementation of DeepCAD.
+- DeepCAD_Fiji is a user-friendly [Fiji](https://imagej.net/Fiji) plugin. This plugin is easy to install and convenient to use. Researchers without expertise in computer science and machine learning can learn to use it in a very short time. 
+  - DeepCAD_Fiji_plugin contains the executable .jar file that can be installed on Fiji. 
+  - DeepCAD_java is the java source code of our Fiji plugin based on [CSBDeep](https://csbdeep.bioimagecomputing.com). 
+  - DeepCAD_tensorflow is the [Tensorflow](https://www.tensorflow.org/) implementation of DeepCAD, which is used for training models compatible with the Fiji plugin. 
+
 
 
 ```
