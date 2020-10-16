@@ -4,7 +4,7 @@
 
 ## Overview
 
-<img src="images/schematic.png" width="400" align="right">
+<img src="images/schematic.png" width="450" align="right">
 
 - [Overview](#overview)
 - [Directory structure](#directory-structure)
@@ -24,15 +24,7 @@ For more details, please see the companion paper where the method appeared:
 
 ## Directory structure
 
-The file structure is summarized below:
-
-- DeepCAD_pytorch is the [Pytorch](https://pytorch.org/) implementation of DeepCAD.
-- DeepCAD_Fiji is a user-friendly [Fiji](https://imagej.net/Fiji) plugin. This plugin is easy to install and convenient to use. Researchers without expertise in computer science and machine learning can learn to use it in a very short time. 
-  - DeepCAD_Fiji_plugin contains the executable .jar file that can be installed on Fiji. 
-  - DeepCAD_java is the java source code of our Fiji plugin based on [CSBDeep](https://csbdeep.bioimagecomputing.com). 
-  - DeepCAD_tensorflow is the [Tensorflow](https://www.tensorflow.org/) implementation of DeepCAD, which is used for training models compatible with the Fiji plugin. 
-
-
+The file structure is shown below:
 
 ```
 DeepCAD
@@ -74,8 +66,14 @@ DeepCAD
 |---|---|---results
 |---|---|---|---#Results of training process and final test#
 ```
+- DeepCAD_pytorch is the [Pytorch](https://pytorch.org/) implementation of DeepCAD.
+- DeepCAD_Fiji is a user-friendly [Fiji](https://imagej.net/Fiji) plugin. This plugin is easy to install and convenient to use. Researchers without expertise in computer science and machine learning can learn to use it in a very short time. 
+  - DeepCAD_Fiji_plugin contains the executable .jar file that can be installed on Fiji. 
+  - DeepCAD_java is the java source code of our Fiji plugin based on [CSBDeep](https://csbdeep.bioimagecomputing.com). 
+  - DeepCAD_tensorflow is the [Tensorflow](https://www.tensorflow.org/) implementation of DeepCAD, which is used for training models compatible with the Fiji plugin. 
 
 ## Python code
+
 ### Environment 
 
 * Ubuntu 16.04 
@@ -158,7 +156,8 @@ $ os.system('python test.py --denoise_model #pth model name#')
 ## Fiji plugin
 
 To ameliorate the difficulty of using our deep self-supervised learning-based method, we developed a user-friendly Fiji plugin. This plugin is easy to install and convenient to use. Researchers without expertise in computer science and machine learning can learn to use it in a very short time. 
-<img src="images/schematic.png" width="400" align="right">
+
+<img src="images/fiji.png" width=800" align="middle">
 
 ### Install Fiji plugin
 
