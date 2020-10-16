@@ -24,8 +24,6 @@ For more details, please see the companion paper where the method appeared:
 
 ## Directory structure
 
-The file structure is shown below:
-
 ```
 DeepCAD
 |---DeepCAD_pytorch
