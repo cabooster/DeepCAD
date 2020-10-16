@@ -18,6 +18,10 @@ Calcium imaging is inherently susceptible to detection noise especially when ima
 
 DeepCAD is based on the insight that a deep denoising network can achieve satisfactory convergence even the target image used for training is another corrupted sampling of the same scene. We explored the temporal redundancy of calcium imaging and found that any two consecutive frames can be regarded as two independent samplings of a same underlying firing pattern. Furthermore, to boost its performance on 3D temporal stacks, the input and output data are designed to be 3D volumes rather than 2D frames to fully incorporate the abundant information along time axis.
 
+
+For more details, please see the companion paper where the method appeared: 
+["*Unsupervised content-preserving transformation for optical microscopy*".](https://www.biorxiv.org/content/10.1101/848077v1.abstract)
+
 ## Directory structure
 
 The file structure is summarized below:
@@ -153,6 +157,9 @@ $ os.system('python test.py --denoise_model #pth model name#')
 
 ## Fiji plugin
 
+To ameliorate the difficulty of using our deep self-supervised learning-based method, we developed a user-friendly Fiji plugin. This plugin is easy to install and convenient to use. Researchers without expertise in computer science and machine learning can learn to use it in a very short time. 
+<img src="images/schematic.png" width="400" align="right">
+
 ### Install Fiji plugin
 
 Download the executable jar file. Install the plugin via Fiji > Plugin > Install.
@@ -194,6 +201,6 @@ Below shows the performance of DeepCAD on denoising two-photon calcium imaging d
 
 ## Citation
 
-If you use this code please cite the companion paper where original methods appeared: 
+If you use this code please cite the companion paper where the original method appeared: 
 
 ["*Unsupervised content-preserving transformation for optical microscopy*".](https://www.biorxiv.org/content/10.1101/848077v1.abstract)
