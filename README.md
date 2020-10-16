@@ -14,9 +14,9 @@
 - [License](./LICENSE)
 - [Citation](#citation)
 
-DeepCAD model aims at denoising dynamic calcium imaging data, after which it becomes easier to extract calcium signals and neuronal contours. DeepCAD is an unsupervised deep learning model mainly based on 3D U-net and noise2noise method. Thus it is user-friendly without time-consuming process of preparing training datasets.ng model mainly based on 3D U-net and noise2noise method. Thus it is user-friendly without time-consuming process of preparing training datasets.
+Calcium imaging is inherently susceptible to detection noise (photon noise and electronic noise) especially when imaging with high frame rate or under low excitation dose. We developed DeepCAD, a deep self-supervised learning-based method for calcium imaging denoising. Using our method, detection noise can be largely removed and the accuracy of neuron extraction and spike inference is highly improved.
 
-DeepCAD model aims at denoising dynamic calcium imaging data, after which it becomes easier to extract calcium signals and neuronal contours. DeepCAD is an unsupervised deep learning model mainly based on 3D U-net and noise2noise method. Thus it is user-friendly without time-consuming process of preparing training datasets.ng model mainly based on 3D U-net and noise2noise method. Thus it is user-friendly without time-consuming process of preparing training datasets.
+DeepCAD is based on the insight that a deep denoising network can achieve satisfactory convergence even the target image used for training is another corrupted sampling of the same scene. We explored the temporal redundancy of calcium imaging and found that any two consecutive frames can be regarded as two independent samplings of a same underlying firing pattern. Furthermore, to boost its performance on 3D temporal stacks, the input and output data are designed to be 3D volumes rather than 2D frames to fully incorporate the abundant information along time axis.
 
 ## Directory structure
 
