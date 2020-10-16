@@ -2,9 +2,7 @@
 
 <img src="images/logo.PNG" width="900" align="middle">
 
-## Overview
-
-<img src="images/schematic.png" width="450" align="right">
+## Contents
 
 - [Overview](#overview)
 - [Directory structure](#directory-structure)
@@ -13,6 +11,10 @@
 - [Results](#results)
 - [License](./LICENSE)
 - [Citation](#citation)
+
+## Overview
+
+<img src="images/schematic.png" width="450" align="right">
 
 Calcium imaging is inherently susceptible to detection noise especially when imaging with high frame rate or under low excitation dose. We developed DeepCAD, a deep self-supervised learning-based method for calcium imaging denoising. Using our method, detection noise can be largely removed and the accuracy of neuron extraction and spike inference is highly improved.
 
