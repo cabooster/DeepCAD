@@ -72,7 +72,7 @@ DeepCAD
   - **DeepCAD_Fiji_plugin** contains the executable .jar file that can be installed on Fiji. 
   - **DeepCAD_java** is the java source code of our Fiji plugin based on [CSBDeep](https://csbdeep.bioimagecomputing.com). 
   - **DeepCAD_tensorflow** is the [Tensorflow](https://www.tensorflow.org/) implementation of DeepCAD, which is used for training models compatible with the Fiji plugin. 
-- **DeepCAD_Fiji** contains Matlab scripts to generate simulated calcium imaging data.
+- **simulation** contains Matlab scripts to generate simulated calcium imaging data.
 
 ## Python code
 
