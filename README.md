@@ -163,24 +163,7 @@ To ameliorate the difficulty of using our deep self-supervised learning-based me
 
 ### Install Fiji plugin
 
-Download the executable jar file. Install the plugin via Fiji > Plugin > Install.
-
-### Develop a pre-trained model
-
-First you should train a DeepCAD model based on the Tensorflow code.
-
-```
-$ source activate tensorflow
-$ python main.py --GPU 3 --img_h 64 --img_w 64 --img_s 320 --train_epochs 30 --datasets_folder 3
-```
-
-Parameters can be modified as required.
-
-```
-$ python main.py --GPU #GPU index# --img_h #stack height# --img_w #stack width# --img_s #stack length# --train_epochs #training epoch number# --datasets_folder #project name#
-```
-
-The pre-trained model is saved at DeepCAD_Fiji/DeepCAD_tensorflow/DeepCAD_model/. 
+Download the packaged plugin file (.jar) from *DeepCAD_Fiji/DeepCAD_Fiji_plugin*. Install the plugin via **Fiji > Plugin > Install**.
 
 ### Use Fiji plugin
 
@@ -194,11 +177,32 @@ The pre-trained model is saved at DeepCAD_Fiji/DeepCAD_tensorflow/DeepCAD_model/
 
 5.  Click ‘OK’ and the denoised result will be displayed in another window after several minutes (depends on your data size).
 
+### Train a customized model for your microscope
+
+Because imaging systems and experiment conditions varies, a customized DeepCAD model trained on specified data is recommend for optimal performance. A Tensorflow implementation of DeepCAD compatible with the plugin is made publicly accessible at *DeepCAD_Fiji/DeepCAD_tensorflow*.
+
+#### Training
+
+```
+$ source activate tensorflow
+$ python main.py --GPU 3 --img_h 64 --img_w 64 --img_s 320 --train_epochs 30 --datasets_folder 3
+```
+
+Parameters can be modified as required.
+
+```
+$ python main.py --GPU #GPU index# --img_h #stack height# --img_w #stack width# --img_s #stack length# --train_epochs #training epoch number# --datasets_folder #project name#
+```
+
+The pre-trained model is saved at *DeepCAD_Fiji/DeepCAD_tensorflow/DeepCAD_model/*. 
+
+
 ## Results
 
 Below shows the performance of DeepCAD on denoising two-photon calcium imaging data of a transgenic mouse expressing GCaMP6f.
 
 <img src="images/result_1.png" width="1000" align="middle">
+
 
 ## Citation
 
