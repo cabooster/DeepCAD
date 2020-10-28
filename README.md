@@ -84,7 +84,7 @@ DeepCAD
 * Tensorflow 1.4.0
 * NVIDIA GPU + CUDA
 
-### Build the environment (Tensorflow)
+### Environment configuration
 
 Open the terminal of ubuntu system.
 
