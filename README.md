@@ -199,11 +199,11 @@ The pre-trained model is saved at *DeepCAD_Fiji/DeepCAD_tensorflow/DeepCAD_model
 
 ## Results
 
-**Below shows the performance of DeepCAD on denoising two-photon calcium imaging of neuropil activities of a GCaMP6f mouse.**
+- **The performance of DeepCAD on denoising two-photon calcium imaging of neuropil activities of a GCaMP6f mouse.**
 
 <img src="images/dendrite.png" width="1000" align="middle">
 
-**Below shows the performance of DeepCAD on denoising two-photon calcium imaging of large neuronal populations.**
+- **The performance of DeepCAD on denoising two-photon calcium imaging of large neuronal populations.**
 
 <img src="images/soma.png" width="1000" align="middle">
 
