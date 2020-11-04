@@ -207,6 +207,9 @@ The pre-trained model is saved at *DeepCAD_Fiji/DeepCAD_tensorflow/DeepCAD_model
 
 <img src="images/soma.png" width="1000" align="middle">
 
+- **Cross-system validation.**
+
+<img src="images/cross-system.png" width="800" align="middle">
 
 ## Citation
 
