@@ -187,7 +187,7 @@ Because imaging systems and experiment conditions varies, a customized DeepCAD m
 
 ```
 $ source activate tensorflow
-$ python main.py --GPU 3 --img_h 64 --img_w 64 --img_s 320 --train_epochs 30 --datasets_folder 3
+$ os.system('python main2.py --GPU 0 --img_h 64 --img_w 64 --img_s 320 --train_epochs 30 --datasets_folder DataForPytorch --normalize_factor 1 --lr 0.00005 --train_datasets_size 1000')
 ```
 
 Parameters can be modified as required.
