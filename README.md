@@ -174,7 +174,7 @@ Download the packaged plugin file (.jar) from *DeepCAD_Fiji/DeepCAD_Fiji_plugin*
 3.  Open the plugin at **Plugins > DeepCAD**.
 
 4.  Select the pre-trained model and set six parameters on the panel (with default values and no changes are required unless necessary).
-
+<img src="images/parameter.png" width="1000" align="middle">
 5.  Click ‘OK’ and the denoised result will be displayed in another window after several minutes (depends on your data size).
 
 ### Train a customized model for your microscope
