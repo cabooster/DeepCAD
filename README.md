@@ -131,13 +131,14 @@ Run the script.py(training part) to begin your train.
 
 ```
 $ source activate pytorch
-$ os.system('python train.py --datasets_folder qwd_7 --img_h 64 --img_w 64 --img_s 464 --gap_h 64 --gap_w 64 --gap_s 500 --n_epochs 30 --GPU 3 --normalize_factor 1')
+$ os.system('python train.py --datasets_folder DataForPytorch --lr 0.00005 \
+    --img_h 64 --img_w 64 --img_s 464 --gap_h 64 --gap_w 64 --gap_s 150 --n_epochs 20 --GPU 0 --normalize_factor 1 --train_datasets_size 1200 --select_img_num 10000')
 ```
 
 Parameters can be modified correctly.
 
 ```
-$ os.system('python train.py --datasets_folder #project name# --img_h #stack height# --img_w #stack width# --img_s #stack length# --gap_h #stack gap height# --gap_w #stack gap width# --gap_s #stack gap length# --n_epochs #training epoch number# --GPU #GPU index# --normalize_factor #image normalizefactor#')
+$ os.system('python train.py --datasets_folder #project name# --img_h #stack height# --img_w #stack width# --img_s #stack length# --gap_h #stack gap height# --gap_w #stack gap width# --gap_s #stack gap length# --n_epochs #training epoch number# --GPU #GPU index# --normalize_factor #image normalizefactor# --train_datasets_size #the size of training datasets# --select_img_num #the number of images used for training#')
 ```
 
 ##### Test
@@ -146,13 +147,14 @@ Run the script.py (test part) to begin your test. Parameters saved in the .yaml 
 
 ```
 $ source activate pytorch
-$ os.system('python test.py --denoise_model test_20201001-0003')
+$ os.system('python test.py --denoise_model ModelForPytorch \
+    --datasets_folder DataForPytorch --datasets_path datasets --pth_path pth --output_dir results --test_datasize 2000')
 ```
 
 Parameters can be modified  as required.
 
 ```
-$ os.system('python test.py --denoise_model #pth model name#')
+$ os.system('python test.py --denoise_model #pth model name# --test_datasize #the number of images used for test#')
 ```
 
 ## Fiji plugin
