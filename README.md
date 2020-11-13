@@ -124,6 +124,7 @@ $ pip install numpy=1.16.2
 ### Pytorch code
 
 ##### Training
+Download the demodata(.tif file) from [[DataForPytorch]](https://drive.google.com/drive/folders/1w9v1SrEkmvZal5LH79HloHhz6VXSPfI_) and put it in *Datasets/DataForPytorch/*.
 
 Run the script.py(training part) to begin your train.
 
