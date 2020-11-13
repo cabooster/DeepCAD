@@ -24,11 +24,11 @@ $ source activate tensorflow
 $ conda install tensorflow-gpu=1.4
 ```
 
-#### Training
+### Training
 
 ```
 $ source activate tensorflow
-$ os.system('python main2.py --GPU 0 --img_h 64 --img_w 64 --img_s 320 --train_epochs 30 --datasets_folder DataForPytorch --normalize_factor 1 --lr 0.00005 --train_datasets_size 1000')
+$ os.system('python main.py --GPU 0 --img_h 64 --img_w 64 --img_s 320 --train_epochs 30 --datasets_folder DataForPytorch --normalize_factor 1 --lr 0.00005 --train_datasets_size 1000')
 ```
 
 Parameters can be modified as required.
@@ -38,3 +38,19 @@ $ python main.py --GPU #GPU index# --img_h #stack height# --img_w #stack width# 
 ```
 
 The pre-trained model is saved at *DeepCAD_Fiji/DeepCAD_tensorflow/DeepCAD_model/*. 
+
+#### Test
+
+Run the script.py (test part) to begin your test. Parameters saved in the .yaml file will be automatically loaded.
+
+```
+$ source activate pytorch
+$ os.system('python test_pb.py --GPU 3 --denoise_model ModelForTestPlugin \
+    --datasets_folder DataForPytorch --model_name 25_1000 --test_datasize 500')
+```
+
+Parameters can be modified  as required.
+
+```
+$ os.system('python test.py --denoise_model #model name# --test_datasize #the number of images used for test#')
+```
