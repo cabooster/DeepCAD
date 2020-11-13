@@ -41,30 +41,15 @@ DeepCAD
 |---|---|---qwd_7 #project_name#
 |---|---|---|---train_raw.tif #raw data for train#
 |---|---pth
-|---|---|---qwd_7_20200605-0913
+|---|---|---qwd_7_20201115-0913
 |---|---|---|--- #pth model#
 |---|---results
 |---|---|--- #Results of training process and final test#
 |---DeepCAD_Fiji
 |---|---DeepCAD_Fiji_plugin
-|---|---|---DeepCAD-0.1.0 #executable jar file/.jar#
-|---|---DeepCAD_java
-|---|---|--- #java source code of DeepCAD Fiji plugin#
-|---|---DeepCAD_tensorflow #for create denoising model#
-|---|---|---basic_ops.py
-|---|---|---train.py
-|---|---|---network.py
-|---|---|---script.py
-|---|---|---test_pb.py
-|---|---|---data_process.py
-|---|---|---datasets
-|---|---|---|---qwd_7 #project_name#
-|---|---|---|---|---train_raw.tif #raw data for train#
-|---|---|---DeepCAD_model
-|---|---|---|---qwd_7_20200605-0913
-|---|---|---|---|--- #pth model#
-|---|---|---results
-|---|---|---|---#Results of training process and final test#
+|---|---|---DeepCAD-0.3.0 #executable jar file/.jar#
+|---|---DeepCAD_java #java source code of DeepCAD Fiji plugin#
+|---|---DeepCAD_tensorflow #Tensorflow implementation compatible with Fiji plugin#
 ```
 - **DeepCAD_pytorch** is the [Pytorch](https://pytorch.org/) implementation of DeepCAD.
 - **DeepCAD_Fiji** is a user-friendly [Fiji](https://imagej.net/Fiji) plugin. This plugin is easy to install and convenient to use. Researchers without expertise in computer science and machine learning can learn to use it in a very short time. 
