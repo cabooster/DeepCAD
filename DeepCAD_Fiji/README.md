@@ -2,7 +2,7 @@
 
 To ameliorate the difficulty of using our deep self-supervised learning-based method, we developed a user-friendly Fiji plugin, which is easy to install and convenient to use. Researchers without expertise in computer science and machine learning can manage it in a very short time. 
 
-<img src="https://github.com/cabooster/DeepCAD/blob/master/images/fiji.png" width="1000" align="middle">
+<img src="https://github.com/cabooster/DeepCAD/blob/master/images/fiji.png" width="900" align="middle">
 
 ### Install Fiji plugin
 
