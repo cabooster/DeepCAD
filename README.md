@@ -137,15 +137,10 @@ To ameliorate the difficulty of using our deep self-supervised learning-based me
 ### Use Fiji plugin
 
 1.  Open Fiji.
-
 2.  Open the calcium imaging stack to be denoised.
-
 3.  Open the plugin at **Plugins > DeepCAD**.
-
 4.  Select the pre-trained model and set six parameters on the panel (with default values and no changes are required unless necessary).
-
 <img src="https://github.com/cabooster/DeepCAD/blob/master/images/parameter.PNG" width="800" align="middle">
-
 5.  Click ‘OK’ and the denoised result will be displayed in another window after several minutes (depends on your data size).
 
 ### Train a customized model for your microscope
