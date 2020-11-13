@@ -103,6 +103,8 @@ $ pip install numpy=1.16.2
 
 ##### Training
 
+Download the demodata(.tif file) [DataForPytorch](https://drive.google.com/drive/folders/1w9v1SrEkmvZal5LH79HloHhz6VXSPfI_) and put it in *datasets/DataForPlugin.*.
+
 Run the script.py(training part) to begin your train.
 
 ```
@@ -118,6 +120,8 @@ $ os.system('python train.py --datasets_folder #project name# --img_h #stack hei
 ```
 
 ##### Test
+
+Download the demodata(.pth file and .yaml file) [ModelForPytorch](https://drive.google.com/drive/folders/12LEFsAopTolaRyRpJtFpzOYH3tBZMGUP) and put it in *pth/ModelForPlugin.*.
 
 Run the script.py (test part) to begin your test. Parameters saved in the .yaml file will be automatically loaded.
 
@@ -141,7 +145,7 @@ To ameliorate the difficulty of using our deep self-supervised learning-based me
 
 ### Install Fiji plugin
 
-Download the packaged plugin file (.jar) from *DeepCAD_Fiji/DeepCAD_Fiji_plugin*. Install the plugin via **Fiji > Plugin > Install**.
+Download the packaged plugin file (.jar) from *DeepCAD_Fiji/DeepCAD_Fiji_plugin*. Install the plugin via **Fiji > Plugin > Install**. Download the demodata(.tif file) [DataForTestPlugin](https://drive.google.com/drive/folders/1JVbuCwIxRKr4_NNOD7fY61NnVeCA2UnP). Download the demomodel(.zip file and .yaml file) [ModelForTestPlugin](https://drive.google.com/drive/folders/14wSuMFhWKxW5Oq93GHxTsGixpB3T4lOL) and unzip the .zip file for next step.
 
 ### Use Fiji plugin
 
