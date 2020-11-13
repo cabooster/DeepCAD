@@ -22,7 +22,7 @@ DeepCAD is based on the insight that a deep learning network for image denoising
 
 
 For more details, please see the companion paper where the method appeared: 
-["*Unsupervised content-preserving transformation for optical microscopy*".](https://www.biorxiv.org/content/10.1101/848077v1.abstract)
+["*Reinforcing neuron extraction and spike inference in calcium imaging with deep self-supervised learning*".](https://www.biorxiv.org/content/10.1101/848077v1.abstract)
 
 ## Directory structure
 
@@ -166,4 +166,4 @@ Because imaging systems and experiment conditions varies, a customized DeepCAD m
 
 If you use this code please cite the companion paper where the original method appeared: 
 
-["*Unsupervised content-preserving transformation for optical microscopy*".](https://www.biorxiv.org/content/10.1101/848077v1.abstract)
+["*Reinforcing neuron extraction and spike inference in calcium imaging with deep self-supervised learning*".](https://www.biorxiv.org/content/10.1101/848077v1.abstract)
