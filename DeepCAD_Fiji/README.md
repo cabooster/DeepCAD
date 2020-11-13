@@ -18,10 +18,10 @@ Download the packaged plugin file (.jar) from *DeepCAD_Fiji/DeepCAD_Fiji_plugin*
 
 4.  Select the pre-trained model and set six parameters on the panel (with default values and no changes are required unless necessary).
 
-<img src="https://github.com/cabooster/DeepCAD/blob/master/images/parameter.PNG" width="600" align="middle">
+<img src="https://github.com/cabooster/DeepCAD/blob/master/images/parameter.PNG" width="800" align="middle">
 
 5.  Click ‘OK’ and the denoised result will be displayed in another window after several minutes (depends on your data size).
 
 ### Train a customized model for your microscope
 
-Because imaging systems and experiment conditions varies, a customized DeepCAD model trained on specified data is recommended for optimal performance. A Tensorflow implementation of DeepCAD compatible with the plugin is made publicly accessible at *DeepCAD_Fiji/DeepCAD_tensorflow*.
+Because imaging systems and experiment conditions varies, a customized DeepCAD model trained on specified data is recommended for optimal performance. A Tensorflow implementation of DeepCAD compatible with the plugin is made publicly accessible at *[DeepCAD_Fiji/DeepCAD_tensorflow](https://github.com/cabooster/DeepCAD/tree/master/DeepCAD_Fiji/DeepCAD_tensorflow)*.
