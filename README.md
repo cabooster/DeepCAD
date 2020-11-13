@@ -28,7 +28,7 @@ For more details, please see the companion paper where the method appeared:
 
 ```
 DeepCAD
-  |---DeepCAD_pytorch #Pytorch implementation of DeepCAD#
+|---DeepCAD_pytorch #Pytorch implementation of DeepCAD#
 |---|---train.py
 |---|---test.py
 |---|---script.py
@@ -57,7 +57,7 @@ DeepCAD
   - **DeepCAD_java** is the java source code of our Fiji plugin based on [CSBDeep](https://csbdeep.bioimagecomputing.com). 
   - **DeepCAD_tensorflow** is the [Tensorflow](https://www.tensorflow.org/) implementation of DeepCAD, which is used for training models compatible with the Fiji plugin. 
 
-## Pytorch implementation
+## Pytorch code
 
 ### Environment 
 
