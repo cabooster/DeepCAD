@@ -6,7 +6,7 @@
 
 - [Overview](#overview)
 - [Directory structure](#directory-structure)
-- [Pytorch implementation](#Pytorch-implementation)
+- [Pytorch code](#pytorch-code)
 - [Fiji plugin](#fiji-plugin)
 - [Results](#results)
 - [License](./LICENSE)
@@ -28,7 +28,7 @@ For more details, please see the companion paper where the method appeared:
 
 ```
 DeepCAD
-|---DeepCAD_pytorch
+  |---DeepCAD_pytorch #Pytorch implementation of DeepCAD#
 |---|---train.py
 |---|---test.py
 |---|---script.py
@@ -88,7 +88,7 @@ $ pip install numpy=1.16.2
 
 ### Training
 
-Download the demo data(.tif file) [DataForPytorch](https://drive.google.com/drive/folders/1w9v1SrEkmvZal5LH79HloHhz6VXSPfI_) and put it into *datasets/DataForPlugin.*.
+Download the demo data(.tif file) [[DataForPytorch](https://drive.google.com/drive/folders/1w9v1SrEkmvZal5LH79HloHhz6VXSPfI_)] and put it into *datasets/DataForPlugin.*.
 
 Run the script.py(training part) to begin your train.
 
@@ -106,7 +106,7 @@ $ os.system('python train.py --datasets_folder #project name# --img_h #stack hei
 
 ### Test
 
-Download the demodata(.pth file and .yaml file) [ModelForPytorch (pre-trained)](https://drive.google.com/drive/folders/12LEFsAopTolaRyRpJtFpzOYH3tBZMGUP) and put it in *pth/ModelForPlugin.*.
+Download the demodata(.pth file and .yaml file) [[ModelForPytorch (pre-trained)](https://drive.google.com/drive/folders/12LEFsAopTolaRyRpJtFpzOYH3tBZMGUP)] and put it in *pth/ModelForPlugin.*.
 
 Run the script.py (test part) to begin your test. Parameters saved in the .yaml file will be automatically loaded.
 
@@ -132,7 +132,7 @@ To ameliorate the difficulty of using our deep self-supervised learning-based me
 
 1.  Download the packaged plugin file (.jar) from *[DeepCAD_Fiji/DeepCAD_Fiji_plugin](https://github.com/cabooster/DeepCAD/tree/master/DeepCAD_Fiji/DeepCAD_Fiji_plugin)*. 
 2.  Install the plugin via **Fiji > Plugin > Install**. 
-3.  Download the demo data(.tif) [DataForTestPlugin](https://drive.google.com/drive/folders/1JVbuCwIxRKr4_NNOD7fY61NnVeCA2UnP). and the our pre-trained model(.zip and .yaml) [ModelForTestPlugin](https://drive.google.com/drive/folders/14wSuMFhWKxW5Oq93GHxTsGixpB3T4lOL). Unzip the .zip file and put it in a directory where you can find it.
+3.  Download the demo data(.tif) [[DataForTestPlugin](https://drive.google.com/drive/folders/1JVbuCwIxRKr4_NNOD7fY61NnVeCA2UnP)]. and the our pre-trained model(.zip and .yaml) [[ModelForTestPlugin](https://drive.google.com/drive/folders/14wSuMFhWKxW5Oq93GHxTsGixpB3T4lOL)]. Unzip the .zip file and put it in a directory where you can find it.
 
 ### Use Fiji plugin
 
