@@ -141,6 +141,7 @@ $ os.system('python train.py --datasets_folder #project name# --img_h #stack hei
 ```
 
 ##### Test
+Download the demomodel(.pth file and .yaml file) from [[ModelForPytorch]](https://drive.google.com/drive/folders/12LEFsAopTolaRyRpJtFpzOYH3tBZMGUP) and put it in *pth/ModelForPytorch/*.
 
 Run the script.py (test part) to begin your test. Parameters saved in the .yaml file will be automatically loaded.
 
