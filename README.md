@@ -101,9 +101,9 @@ $ pip install numpy=1.16.2
 ......
 ```
 
-#### Training
+### Training
 
-Download the demodata(.tif file) [DataForPytorch](https://drive.google.com/drive/folders/1w9v1SrEkmvZal5LH79HloHhz6VXSPfI_) and put it in *datasets/DataForPlugin.*.
+Download the demo data(.tif file) [DataForPytorch](https://drive.google.com/drive/folders/1w9v1SrEkmvZal5LH79HloHhz6VXSPfI_) and put it into *datasets/DataForPlugin.*.
 
 Run the script.py(training part) to begin your train.
 
@@ -119,7 +119,7 @@ Parameters can be modified correctly.
 $ os.system('python train.py --datasets_folder #project name# --img_h #stack height# --img_w #stack width# --img_s #stack length# --gap_h #stack gap height# --gap_w #stack gap width# --gap_s #stack gap length# --n_epochs #training epoch number# --GPU #GPU index# --normalize_factor #image normalizefactor# --train_datasets_size #the size of training datasets# --select_img_num #the number of images used for training#')
 ```
 
-#### Test
+### Test
 
 Download the demodata(.pth file and .yaml file) [ModelForPytorch](https://drive.google.com/drive/folders/12LEFsAopTolaRyRpJtFpzOYH3tBZMGUP) and put it in *pth/ModelForPlugin.*.
 
@@ -145,7 +145,9 @@ To ameliorate the difficulty of using our deep self-supervised learning-based me
 
 ### Install Fiji plugin
 
-Download the packaged plugin file (.jar) from *DeepCAD_Fiji/DeepCAD_Fiji_plugin*. Install the plugin via **Fiji > Plugin > Install**. Download the demodata(.tif file) [DataForTestPlugin](https://drive.google.com/drive/folders/1JVbuCwIxRKr4_NNOD7fY61NnVeCA2UnP). Download the demomodel(.zip file and .yaml file) [ModelForTestPlugin](https://drive.google.com/drive/folders/14wSuMFhWKxW5Oq93GHxTsGixpB3T4lOL) and unzip the .zip file for next step.
+1.  Download the packaged plugin file (.jar) from *[DeepCAD_Fiji/DeepCAD_Fiji_plugin](https://github.com/cabooster/DeepCAD/tree/master/DeepCAD_Fiji/DeepCAD_Fiji_plugin)*. 
+2.  Install the plugin via **Fiji > Plugin > Install**. 
+3.  Download the demo data(.tif) [DataForTestPlugin](https://drive.google.com/drive/folders/1JVbuCwIxRKr4_NNOD7fY61NnVeCA2UnP). and the our pre-trained model(.zip and .yaml) [ModelForTestPlugin](https://drive.google.com/drive/folders/14wSuMFhWKxW5Oq93GHxTsGixpB3T4lOL). Unzip the .zip file and put it in a directory where you can find it.
 
 ### Use Fiji plugin
 
