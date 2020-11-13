@@ -1,5 +1,24 @@
 ## Tensorflow implementation compatible with Fiji plugin
 
+### Directory structure
+```
+DeepCAD_tensorflow #Tensorflow implementation compatible with Fiji plugin#
+|---basic_ops.py
+|---train.py
+|---network.py
+|---script.py
+|---test_pb.py
+|---data_process.py
+|---datasets
+|---|---qwd_7 #project_name#
+|---|---|---train_raw.tif #raw data for train#
+|---DeepCAD_model
+|---|---qwd_7_20200605-0913
+|---|---|--- #pth model#
+|---results
+|---|---#Results of training process and final test#
+```
+
 ### Environment 
 
 * Ubuntu 16.04 
