@@ -180,7 +180,7 @@ Because imaging systems and experiment conditions varies, a customized DeepCAD m
 
 - **Cross-system validation.**
 
-<img src="images/cross-system.png" width="800" align="middle">
+<img src="images/cross-system.png" width="700" align="middle">
 
 ## Citation
 
