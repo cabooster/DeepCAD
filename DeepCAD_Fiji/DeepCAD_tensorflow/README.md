@@ -14,7 +14,7 @@ DeepCAD_tensorflow #Tensorflow implementation compatible with Fiji plugin#
 |---|---|---train_raw.tif #raw data for train#
 |---DeepCAD_model
 |---|---qwd_7_20201115-0913
-|---|---|--- #pth model#
+|---|---|--- #pb model#
 |---results
 |---|---#Results of training process and final test#
 ```
