@@ -6,7 +6,7 @@
 
 - [Overview](#overview)
 - [Directory structure](#directory-structure)
-- [Pytorch implementation](#pytorch-implementation)
+- [Pytorch code](#python-code)
 - [Fiji plugin](#fiji-plugin)
 - [Results](#results)
 - [License](./LICENSE)
@@ -72,7 +72,7 @@ DeepCAD
   - **DeepCAD_java** is the java source code of our Fiji plugin based on [CSBDeep](https://csbdeep.bioimagecomputing.com). 
   - **DeepCAD_tensorflow** is the [Tensorflow](https://www.tensorflow.org/) implementation of DeepCAD, which is used for training models compatible with the Fiji plugin. 
 
-## Pytorch implementation
+## Pytorch code
 
 ### Environment 
 
@@ -163,7 +163,7 @@ Because imaging systems and experiment conditions varies, a customized DeepCAD m
 
 ```
 $ source activate tensorflow
-$ os.system('python main2.py --GPU 0 --img_h 64 --img_w 64 --img_s 320 --train_epochs 30 --datasets_folder DataForPytorch --normalize_factor 1 --lr 0.00005 --train_datasets_size 1000')
+$ os.system('python main.py --GPU 0 --img_h 64 --img_w 64 --img_s 320 --train_epochs 30 --datasets_folder DataForPytorch --normalize_factor 1 --lr 0.00005 --train_datasets_size 1000')
 ```
 
 Parameters can be modified as required.
@@ -174,6 +174,21 @@ $ python main.py --GPU #GPU index# --img_h #stack height# --img_w #stack width# 
 
 The pre-trained model is saved at *DeepCAD_Fiji/DeepCAD_tensorflow/DeepCAD_model/*. 
 
+##### Test
+
+Run the script.py (test part) to begin your test. Parameters saved in the .yaml file will be automatically loaded.
+
+```
+$ source activate pytorch
+$ os.system('python test_pb.py --GPU 3 --denoise_model ModelForTestPlugin \
+    --datasets_folder DataForPytorch --model_name 25_1000 --test_datasize 500')
+```
+
+Parameters can be modified  as required.
+
+```
+$ os.system('python test.py --denoise_model #pth model name# --test_datasize #the number of images used for test#')
+```
 
 ## Results
 
