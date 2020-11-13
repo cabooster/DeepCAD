@@ -187,7 +187,7 @@ $ os.system('python test_pb.py --GPU 3 --denoise_model ModelForTestPlugin \
 Parameters can be modified  as required.
 
 ```
-$ os.system('python test.py --denoise_model #pth model name# --test_datasize #the number of images used for test#')
+$ os.system('python test.py --denoise_model #model name# --test_datasize #the number of images used for test#')
 ```
 
 ## Results
