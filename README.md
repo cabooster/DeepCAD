@@ -101,7 +101,7 @@ $ pip install numpy=1.16.2
 ......
 ```
 
-##### Training
+#### Training
 
 Download the demodata(.tif file) [DataForPytorch](https://drive.google.com/drive/folders/1w9v1SrEkmvZal5LH79HloHhz6VXSPfI_) and put it in *datasets/DataForPlugin.*.
 
@@ -119,7 +119,7 @@ Parameters can be modified correctly.
 $ os.system('python train.py --datasets_folder #project name# --img_h #stack height# --img_w #stack width# --img_s #stack length# --gap_h #stack gap height# --gap_w #stack gap width# --gap_s #stack gap length# --n_epochs #training epoch number# --GPU #GPU index# --normalize_factor #image normalizefactor# --train_datasets_size #the size of training datasets# --select_img_num #the number of images used for training#')
 ```
 
-##### Test
+#### Test
 
 Download the demodata(.pth file and .yaml file) [ModelForPytorch](https://drive.google.com/drive/folders/12LEFsAopTolaRyRpJtFpzOYH3tBZMGUP) and put it in *pth/ModelForPlugin.*.
 
@@ -139,9 +139,9 @@ $ os.system('python test.py --denoise_model #pth model name# --test_datasize #th
 
 ## Fiji plugin
 
-To ameliorate the difficulty of using our deep self-supervised learning-based method, we developed a user-friendly Fiji plugin. This plugin is easy to install and convenient to use. Researchers without expertise in computer science and machine learning can learn to use it in a very short time. 
+To ameliorate the difficulty of using our deep self-supervised learning-based method, we developed a user-friendly Fiji plugin, which is easy to install and convenient to use. Researchers without expertise in computer science and machine learning can manage it in a very short time. 
 
-<img src="images/fiji.png" width="1000" align="middle">
+<img src="https://github.com/cabooster/DeepCAD/blob/master/images/fiji.png" width="1000" align="middle">
 
 ### Install Fiji plugin
 
@@ -156,43 +156,15 @@ Download the packaged plugin file (.jar) from *DeepCAD_Fiji/DeepCAD_Fiji_plugin*
 3.  Open the plugin at **Plugins > DeepCAD**.
 
 4.  Select the pre-trained model and set six parameters on the panel (with default values and no changes are required unless necessary).
-<img src="images/parameter.PNG" width="600" align="middle">
+
+<img src="https://github.com/cabooster/DeepCAD/blob/master/images/parameter.PNG" width="800" align="middle">
+
 5.  Click ‘OK’ and the denoised result will be displayed in another window after several minutes (depends on your data size).
 
 ### Train a customized model for your microscope
 
-Because imaging systems and experiment conditions varies, a customized DeepCAD model trained on specified data is recommended for optimal performance. A Tensorflow implementation of DeepCAD compatible with the plugin is made publicly accessible at *DeepCAD_Fiji/DeepCAD_tensorflow*.
+Because imaging systems and experiment conditions varies, a customized DeepCAD model trained on specified data is recommended for optimal performance. A Tensorflow implementation of DeepCAD compatible with the plugin is made publicly accessible at *[DeepCAD_Fiji/DeepCAD_tensorflow](https://github.com/cabooster/DeepCAD/tree/master/DeepCAD_Fiji/DeepCAD_tensorflow)*.
 
-#### Training
-
-```
-$ source activate tensorflow
-$ os.system('python main.py --GPU 0 --img_h 64 --img_w 64 --img_s 320 --train_epochs 30 --datasets_folder DataForPytorch --normalize_factor 1 --lr 0.00005 --train_datasets_size 1000')
-```
-
-Parameters can be modified as required.
-
-```
-$ python main.py --GPU #GPU index# --img_h #stack height# --img_w #stack width# --img_s #stack length# --train_epochs #training epoch number# --datasets_folder #project name#
-```
-
-The pre-trained model is saved at *DeepCAD_Fiji/DeepCAD_tensorflow/DeepCAD_model/*. 
-
-##### Test
-
-Run the script.py (test part) to begin your test. Parameters saved in the .yaml file will be automatically loaded.
-
-```
-$ source activate pytorch
-$ os.system('python test_pb.py --GPU 3 --denoise_model ModelForTestPlugin \
-    --datasets_folder DataForPytorch --model_name 25_1000 --test_datasize 500')
-```
-
-Parameters can be modified  as required.
-
-```
-$ os.system('python test.py --denoise_model #model name# --test_datasize #the number of images used for test#')
-```
 
 ## Results
 
