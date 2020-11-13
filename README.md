@@ -14,7 +14,7 @@
 
 ## Overview
 
-<img src="images/schematic.png" width="400" align="right">
+<img src="images/schematic.png" width="350" align="right">
 
 Calcium imaging is inherently susceptible to detection noise especially when imaging with high frame rate or under low excitation dosage. However, calcium transients are highly dynamic, non-repetitive activities and a firing pattern cannot be captured twice. Clean images for supervised training of deep neural networks are not accessible. Here, we present DeepCAD, a **deep** self-supervised learning-based method for **ca**lcium imaging **d**enoising. Using our method, detection noise can be largely removed and the accuracy of neuron extraction and spike inference is highly improved.
 
