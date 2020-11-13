@@ -6,7 +6,7 @@
 
 - [Overview](#overview)
 - [Directory structure](#directory-structure)
-- [Pytorch code](#python-code)
+- [Pytorch implementation](#pytorch-implementation)
 - [Fiji plugin](#fiji-plugin)
 - [Results](#results)
 - [License](./LICENSE)
@@ -72,7 +72,7 @@ DeepCAD
   - **DeepCAD_java** is the java source code of our Fiji plugin based on [CSBDeep](https://csbdeep.bioimagecomputing.com). 
   - **DeepCAD_tensorflow** is the [Tensorflow](https://www.tensorflow.org/) implementation of DeepCAD, which is used for training models compatible with the Fiji plugin. 
 
-## Pytorch code
+## Pytorch implementation
 
 ### Environment 
 
