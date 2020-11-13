@@ -1,4 +1,4 @@
-## Tensorflow implementation compatible with Fiji
+## Tensorflow implementation compatible with Fiji plugin
 
 ### Environment 
 
