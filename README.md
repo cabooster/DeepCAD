@@ -124,7 +124,6 @@ $ pip install numpy=1.16.2
 ### Pytorch code
 
 ##### Training
-Download the demodata(.tif file) from [[DataForPytorch]](https://drive.google.com/drive/folders/1w9v1SrEkmvZal5LH79HloHhz6VXSPfI_) and put it in *Datasets/DataForPytorch/*.
 
 Run the script.py(training part) to begin your train.
 
@@ -141,7 +140,6 @@ $ os.system('python train.py --datasets_folder #project name# --img_h #stack hei
 ```
 
 ##### Test
-Download the demomodel(.pth file and .yaml file) from [[ModelForPytorch]](https://drive.google.com/drive/folders/12LEFsAopTolaRyRpJtFpzOYH3tBZMGUP) and put it in *pth/ModelForPytorch/*.
 
 Run the script.py (test part) to begin your test. Parameters saved in the .yaml file will be automatically loaded.
 
@@ -165,7 +163,7 @@ To ameliorate the difficulty of using our deep self-supervised learning-based me
 
 ### Install Fiji plugin
 
-Download the packaged plugin file (.jar) from *DeepCAD_Fiji/DeepCAD_Fiji_plugin*. Install the plugin via **Fiji > Plugin > Install**. Download the demomodel(.zip file) from [[ModelForTestPlugin]](https://drive.google.com/drive/folders/14wSuMFhWKxW5Oq93GHxTsGixpB3T4lOL) and the demodata(.tif file) from [[DataForTestPlugin]](https://drive.google.com/drive/folders/1JVbuCwIxRKr4_NNOD7fY61NnVeCA2UnP). Unzip the .zip file for next step.
+Download the packaged plugin file (.jar) from *DeepCAD_Fiji/DeepCAD_Fiji_plugin*. Install the plugin via **Fiji > Plugin > Install**.
 
 ### Use Fiji plugin
 
@@ -181,7 +179,7 @@ Download the packaged plugin file (.jar) from *DeepCAD_Fiji/DeepCAD_Fiji_plugin*
 
 ### Train a customized model for your microscope
 
-Because imaging systems and experiment conditions varies, a customized DeepCAD model trained on specified data is recommend for optimal performance. A Tensorflow implementation of DeepCAD compatible with the plugin is made publicly accessible at *DeepCAD_Fiji/DeepCAD_tensorflow*.
+Because imaging systems and experiment conditions varies, a customized DeepCAD model trained on specified data is recommended for optimal performance. A Tensorflow implementation of DeepCAD compatible with the plugin is made publicly accessible at *DeepCAD_Fiji/DeepCAD_tensorflow*.
 
 #### Training
 
