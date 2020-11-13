@@ -2,7 +2,7 @@
 
 To ameliorate the difficulty of using our deep self-supervised learning-based method, we developed a user-friendly Fiji plugin. This plugin is easy to install and convenient to use. Researchers without expertise in computer science and machine learning can learn to use it in a very short time. 
 
-<img src="images/fiji.png" width="1000" align="middle">
+<img src="https://github.com/cabooster/DeepCAD/blob/master/images/fiji.png" width="1000" align="middle">
 
 ### Install Fiji plugin
 
@@ -17,7 +17,9 @@ Download the packaged plugin file (.jar) from *DeepCAD_Fiji/DeepCAD_Fiji_plugin*
 3.  Open the plugin at **Plugins > DeepCAD**.
 
 4.  Select the pre-trained model and set six parameters on the panel (with default values and no changes are required unless necessary).
-<img src="images/parameter.PNG" width="600" align="middle">
+
+<img src="https://github.com/cabooster/DeepCAD/blob/master/images/parameter.PNG" width="600" align="middle">
+
 5.  Click ‘OK’ and the denoised result will be displayed in another window after several minutes (depends on your data size).
 
 ### Train a customized model for your microscope
