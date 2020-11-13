@@ -132,7 +132,7 @@ To ameliorate the difficulty of using our deep self-supervised learning-based me
 
 1.  Download the packaged plugin file (.jar) from *[DeepCAD_Fiji/DeepCAD_Fiji_plugin](https://github.com/cabooster/DeepCAD/tree/master/DeepCAD_Fiji/DeepCAD_Fiji_plugin)*. 
 2.  Install the plugin via **Fiji > Plugin > Install**. 
-3.  Download the demo data(.tif) [[DataForTestPlugin](https://drive.google.com/drive/folders/1JVbuCwIxRKr4_NNOD7fY61NnVeCA2UnP)]. and the our pre-trained model(.zip and .yaml) [[ModelForTestPlugin](https://drive.google.com/drive/folders/14wSuMFhWKxW5Oq93GHxTsGixpB3T4lOL)]. Unzip the .zip file and put it in a directory where you can find it.
+3.  Download the demo data (.tif) [[DataForTestPlugin](https://drive.google.com/drive/folders/1JVbuCwIxRKr4_NNOD7fY61NnVeCA2UnP)]. and the our pre-trained model (.zip and .yaml) [[ModelForTestPlugin](https://drive.google.com/drive/folders/14wSuMFhWKxW5Oq93GHxTsGixpB3T4lOL)]. Unzip the .zip file and put it in a directory where you can find it.
 
 ### Use Fiji plugin
 
