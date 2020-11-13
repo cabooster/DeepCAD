@@ -88,7 +88,7 @@ $ pip install numpy=1.16.2
 
 ### Training
 
-Download the demo data(.tif file) [[DataForPytorch](https://drive.google.com/drive/folders/1w9v1SrEkmvZal5LH79HloHhz6VXSPfI_)] and put it into *datasets/DataForPlugin.*.
+Download the demo data(.tif file) [[DataForPytorch](https://drive.google.com/drive/folders/1w9v1SrEkmvZal5LH79HloHhz6VXSPfI_)] and put it into *DeepCAD_pytorch/datasets/DataForPlugin.*.
 
 Run the script.py(training part) to begin your train.
 
@@ -106,7 +106,7 @@ $ os.system('python train.py --datasets_folder #project name# --img_h #stack hei
 
 ### Test
 
-Download the demodata(.pth file and .yaml file) [[ModelForPytorch (pre-trained)](https://drive.google.com/drive/folders/12LEFsAopTolaRyRpJtFpzOYH3tBZMGUP)] and put it in *pth/ModelForPlugin.*.
+Download the demo data(.pth file and .yaml file) [[ModelForPytorch (pre-trained)](https://drive.google.com/drive/folders/12LEFsAopTolaRyRpJtFpzOYH3tBZMGUP)] and put it into *DeepCAD_pytorch/pth.*.
 
 Run the script.py (test part) to begin your test. Parameters saved in the .yaml file will be automatically loaded.
 
