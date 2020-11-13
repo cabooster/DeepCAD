@@ -1,1 +1,1 @@
-### Packaged plugin file for Fiji
+## Packaged plugin file for Fiji
