@@ -124,7 +124,7 @@ $ os.system('python test.py --denoise_model #pth model name# --test_datasize #th
 
 ## Fiji plugin
 
-To ameliorate the difficulty of using our deep self-supervised learning-based method, we developed a user-friendly Fiji plugin, which is easy to install and convenient to use. Researchers without expertise in computer science and machine learning can manage it in a very short time. 
+To ameliorate the difficulty of using our deep self-supervised learning-based method, we developed a user-friendly Fiji plugin, which is easy to install and convenient to use (tested on a Desktop with Intel Xeon E5 CPU and 128G RAM). Researchers without expertise in computer science and machine learning can manage it in a very short time. 
 
 <img src="https://github.com/cabooster/DeepCAD/blob/master/images/fiji.png" width="1000" align="middle">
 
