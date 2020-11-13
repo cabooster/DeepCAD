@@ -6,7 +6,7 @@
 
 - [Overview](#overview)
 - [Directory structure](#directory-structure)
-- [Python code](#python-code)
+- [Pytorch code](#python-code)
 - [Fiji plugin](#fiji-plugin)
 - [Results](#results)
 - [License](./LICENSE)
@@ -72,38 +72,18 @@ DeepCAD
   - **DeepCAD_java** is the java source code of our Fiji plugin based on [CSBDeep](https://csbdeep.bioimagecomputing.com). 
   - **DeepCAD_tensorflow** is the [Tensorflow](https://www.tensorflow.org/) implementation of DeepCAD, which is used for training models compatible with the Fiji plugin. 
 
-## Python code
+## Pytorch code
 
 ### Environment 
 
 * Ubuntu 16.04 
 * Python 3.6
 * Pytorch 1.3.1
-* Tensorflow 1.4.0
 * NVIDIA GPU + CUDA
 
 ### Environment configuration
 
 Open the terminal of ubuntu system.
-
-* Install python 
-
-```
-$ apt-get install python 3.6
-```
-
-* Build anaconda environment
-
-```
-$ conda create -n tensorflow python=3.6
-```
-
-* Install Tensorflow
-
-```
-$ source activate tensorflow
-$ conda install tensorflow-gpu=1.4
-```
 
 * Install Pytorch
 
@@ -120,8 +100,6 @@ $ pip install scipy=0.18.1
 $ pip install numpy=1.16.2
 ......
 ```
-
-### Pytorch code
 
 ##### Training
 
