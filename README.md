@@ -128,11 +128,12 @@ To ameliorate the difficulty of using our deep self-supervised learning-based me
 <img src="https://github.com/cabooster/DeepCAD/blob/master/images/fiji.png" width="1000" align="middle">
 
 ### Install Fiji plugin
-To avoid unnecessary troubles, the following procedure is recommended for installation: 
-1.  Download and install [Fiji]( https://imagej.net/Downloads). Install the CSBDeep dependcy following the steps at [[CSBDeep Fiji plugin](https://github.com/CSBDeep/CSBDeep_website/wiki/CSBDeep-in-Fiji-%E2%80%93-Installation)]
-1.  Download the packaged plugin file (.jar) from *[DeepCAD_Fiji/DeepCAD_Fiji_plugin](https://github.com/cabooster/DeepCAD/tree/master/DeepCAD_Fiji/DeepCAD_Fiji_plugin)*. 
-2.  Install the plugin via **Fiji > Plugin > Install**. 
-3.  Download the demo data (.tif) [[DataForTestPlugin](https://drive.google.com/drive/folders/1JVbuCwIxRKr4_NNOD7fY61NnVeCA2UnP)]. and the our pre-trained model (.zip and .yaml) [[ModelForTestPlugin](https://drive.google.com/drive/folders/14wSuMFhWKxW5Oq93GHxTsGixpB3T4lOL)]. Unzip the .zip file and put it in a directory where you can find it.
+To avoid unnecessary troubles, the following steps are recommended for installation: 
+1.  Download and install [Fiji](https://imagej.net/Downloads). Install the CSBDeep dependcy following the steps at [[CSBDeep in Fiji – Installation](https://github.com/CSBDeep/CSBDeep_website/wiki/CSBDeep-in-Fiji-%E2%80%93-Installation)]
+2.  Download the packaged plugin file (.jar) from *[DeepCAD_Fiji/DeepCAD_Fiji_plugin](https://github.com/cabooster/DeepCAD/tree/master/DeepCAD_Fiji/DeepCAD_Fiji_plugin)*. 
+3.  Install the plugin via **Fiji > Plugin > Install**. 
+
+We provide lightweight data for test. Download the demo data (.tif) [[DataForTestPlugin](https://drive.google.com/drive/folders/1JVbuCwIxRKr4_NNOD7fY61NnVeCA2UnP)]. and the our pre-trained model (.zip and .yaml) [[ModelForTestPlugin](https://drive.google.com/drive/folders/14wSuMFhWKxW5Oq93GHxTsGixpB3T4lOL)]. Unzip the .zip file and put it in a directory where you can find it.
 
 ### Use Fiji plugin
 
