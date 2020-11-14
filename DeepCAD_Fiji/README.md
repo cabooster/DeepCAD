@@ -1,4 +1,4 @@
-## Fiji plugin 
+## Fiji plugin
 
 To ameliorate the difficulty of using our deep self-supervised learning-based method, we developed a user-friendly Fiji plugin, which is easy to install and convenient to use (tested on a desktop with Intel i9 CPU and 128G RAM). Researchers without expertise in computer science and machine learning can manage it in a very short time. 
 
@@ -6,7 +6,7 @@ To ameliorate the difficulty of using our deep self-supervised learning-based me
 
 ### Install Fiji plugin
 To avoid unnecessary troubles, the following steps are recommended for installation: 
-1.  Download and install Fiji from the [Fiji download page](https://imagej.net/Downloads). Install the CSBDeep dependcy following the steps at [[CSBDeep in Fiji – Installation](https://github.com/CSBDeep/CSBDeep_website/wiki/CSBDeep-in-Fiji-%E2%80%93-Installation)]
+1.  Download and install Fiji from the [[Fiji download page](https://imagej.net/Downloads)]. Install the CSBDeep dependcy following the steps at [[CSBDeep in Fiji – Installation](https://github.com/CSBDeep/CSBDeep_website/wiki/CSBDeep-in-Fiji-%E2%80%93-Installation)]
 2.  Download the packaged plugin file (.jar) from *[DeepCAD_Fiji/DeepCAD_Fiji_plugin](https://github.com/cabooster/DeepCAD/tree/master/DeepCAD_Fiji/DeepCAD_Fiji_plugin)*. 
 3.  Install the plugin via **Fiji > Plugin > Install**. 
 
