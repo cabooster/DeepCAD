@@ -1,28 +1,26 @@
-## Fiji plugin
+## Fiji plugin 
 
-To ameliorate the difficulty of using our deep self-supervised learning-based method, we developed a user-friendly Fiji plugin, which is easy to install and convenient to use. Researchers without expertise in computer science and machine learning can manage it in a very short time. 
+To ameliorate the difficulty of using our deep self-supervised learning-based method, we developed a user-friendly Fiji plugin, which is easy to install and convenient to use (tested on a desktop with Intel i9 CPU and 128G RAM). Researchers without expertise in computer science and machine learning can manage it in a very short time. 
 
 <img src="https://github.com/cabooster/DeepCAD/blob/master/images/fiji.png" width="1000" align="middle">
 
 ### Install Fiji plugin
+To avoid unnecessary troubles, the following steps are recommended for installation: 
+1.  Download and install Fiji from the [Fiji download page](https://imagej.net/Downloads). Install the CSBDeep dependcy following the steps at [[CSBDeep in Fiji – Installation](https://github.com/CSBDeep/CSBDeep_website/wiki/CSBDeep-in-Fiji-%E2%80%93-Installation)]
+2.  Download the packaged plugin file (.jar) from *[DeepCAD_Fiji/DeepCAD_Fiji_plugin](https://github.com/cabooster/DeepCAD/tree/master/DeepCAD_Fiji/DeepCAD_Fiji_plugin)*. 
+3.  Install the plugin via **Fiji > Plugin > Install**. 
 
-1.  Download the packaged plugin file (.jar) from *[DeepCAD_Fiji/DeepCAD_Fiji_plugin](https://github.com/cabooster/DeepCAD/tree/master/DeepCAD_Fiji/DeepCAD_Fiji_plugin)*. 
-2.  Install the plugin via **Fiji > Plugin > Install**. 
-3.  Download the demo data(.tif) [DataForTestPlugin](https://drive.google.com/drive/folders/1JVbuCwIxRKr4_NNOD7fY61NnVeCA2UnP). and the our pre-trained model(.zip and .yaml) [ModelForTestPlugin](https://drive.google.com/drive/folders/14wSuMFhWKxW5Oq93GHxTsGixpB3T4lOL). Unzip the .zip file and put it in a directory where you can find it.
+We provide lightweight data for test. Download the demo data (.tif) [[DataForTestPlugin](https://drive.google.com/drive/folders/1JVbuCwIxRKr4_NNOD7fY61NnVeCA2UnP)]. and the our pre-trained model (.zip and .yaml) [[ModelForTestPlugin](https://drive.google.com/drive/folders/14wSuMFhWKxW5Oq93GHxTsGixpB3T4lOL)]. Unzip the .zip file and put it in a directory where you can find it.
 
 ### Use Fiji plugin
 
 1.  Open Fiji.
-
 2.  Open the calcium imaging stack to be denoised.
-
 3.  Open the plugin at **Plugins > DeepCAD**.
-
 4.  Select the pre-trained model and set six parameters on the panel (with default values and no changes are required unless necessary).
-
-<img src="https://github.com/cabooster/DeepCAD/blob/master/images/parameter.PNG" width="800" align="middle">
-
 5.  Click ‘OK’ and the denoised result will be displayed in another window after several minutes (depends on your data size).
+<img src="https://github.com/cabooster/DeepCAD/blob/master/images/parameter.PNG" width="700" align="middle">
+
 
 ### Train a customized model for your microscope
 
