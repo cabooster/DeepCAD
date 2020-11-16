@@ -130,7 +130,7 @@ To ameliorate the difficulty of using our deep self-supervised learning-based me
 ### Install Fiji plugin
 To avoid unnecessary troubles, the following steps are recommended for installation: 
 1.  Download and install Fiji from the [[Fiji download page](https://imagej.net/Fiji/Downloads)]. Install the CSBDeep dependcy following the steps at [[CSBDeep in Fiji – Installation](https://github.com/CSBDeep/CSBDeep_website/wiki/CSBDeep-in-Fiji-%E2%80%93-Installation)]
-2.  Download the packaged plugin file (.jar) from *[DeepCAD_Fiji/DeepCAD_Fiji_plugin](https://github.com/cabooster/DeepCAD/tree/master/DeepCAD_Fiji/DeepCAD_Fiji_plugin)*. 
+2.  Download the packaged plugin file (.jar) from [[DeepCAD_Fiji/DeepCAD_Fiji_plugin](https://github.com/cabooster/DeepCAD/tree/master/DeepCAD_Fiji/DeepCAD_Fiji_plugin)]. 
 3.  Install the plugin via **Fiji > Plugin > Install**. 
 
 We provide lightweight data for test.  Please download the demo data (.tif) [[DataForTestPlugin](https://drive.google.com/drive/folders/1JVbuCwIxRKr4_NNOD7fY61NnVeCA2UnP)] and the pre-trained model (.zip and .yaml) [[ModelForTestPlugin](https://drive.google.com/drive/folders/14wSuMFhWKxW5Oq93GHxTsGixpB3T4lOL)]. 
@@ -140,7 +140,7 @@ We provide lightweight data for test.  Please download the demo data (.tif) [[Da
 1.  Open Fiji.
 2.  Open the calcium imaging stack to be denoised.
 3.  Open the plugin at **Plugins > DeepCAD**. Six parameters will be shown on the panel (with default values and no changes are required unless necessary).
-4.  Specify the path of the pre-trained model using the '*Browse*' button (select the .zip file). 
+4.  Specify the pre-trained model using the '*Browse*' button (select the .zip file). 
 5.  Click ‘OK’ and the denoised result will be displayed in another window after processing (processing time depends on the data size).
 <img src="https://github.com/cabooster/DeepCAD/blob/master/images/parameter.PNG" width="700" align="middle">
 
