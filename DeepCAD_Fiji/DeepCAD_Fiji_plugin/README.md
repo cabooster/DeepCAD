@@ -5,8 +5,7 @@ ________________________________________________________________________________
 ### Logs
 - 0.3.6 - 2020-11-17
 
-  Fixed an exception for displaying language.
-
+  Fixed an exception for language display.
 
 - 0.3.0 - 2020-11-17
 
