@@ -1,4 +1,4 @@
-# DeepCAD: 
+# DeepCAD: Reinforcing neuron extraction and spike inference in calcium imaging using deep self-supervised learning
 
 <img src="images/logo.PNG" width="1000" align="middle">
 
