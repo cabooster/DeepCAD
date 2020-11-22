@@ -152,15 +152,15 @@ Because imaging systems and experiment conditions varies, a customized DeepCAD m
 
 ## Results
 
-- **The performance of DeepCAD on denoising two-photon calcium imaging of neuropil activities of a GCaMP6f mouse.**
+### The performance of DeepCAD on denoising two-photon calcium imaging of neuropil activities of a GCaMP6f mouse.**
 
 <img src="images/dendrite.png" width="800" align="middle">
 
-- **The performance of DeepCAD on denoising two-photon calcium imaging of large neuronal populations.**
+### The performance of DeepCAD on denoising two-photon calcium imaging of large neuronal populations.**
 
 <img src="images/soma.png" width="800" align="middle">
 
-- **Cross-system validation.**
+### Cross-system validation.**
 
 <img src="images/cross-system.png" width="700" align="middle">
 
