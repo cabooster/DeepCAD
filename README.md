@@ -74,14 +74,14 @@ Open the terminal of ubuntu system.
 ```
 $ conda create -n pytorch python=3.6
 $ source activate pytorch
-$ pip install torch=1.3.1 torchvision
+$ pip install torch==1.3.1 torchvision
 ```
 
 * Install necessary packages
 
 ```
-$ pip install scipy=0.18.1
-$ pip install numpy=1.16.2
+$ pip install scipy==0.18.1
+$ pip install numpy==1.16.2
 ......
 ```
 
