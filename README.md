@@ -105,7 +105,7 @@ $ os.system('python train.py --datasets_folder #project name# --img_h #stack hei
 
 ### Test
 
-Download our pre-trained model(.pth file and .yaml file) [[ModelForPytorch (pre-trained)](https://drive.google.com/drive/folders/12LEFsAopTolaRyRpJtFpzOYH3tBZMGUP)] and put it into *DeepCAD_pytorch/pth/ModelForPytorch*.
+Download our pre-trained model(.pth file and .yaml file) [[ModelForPytorch](https://drive.google.com/drive/folders/12LEFsAopTolaRyRpJtFpzOYH3tBZMGUP)] and put it into *DeepCAD_pytorch/pth/ModelForPytorch*.
 
 Run the **script.py (python script.py test)** to begin your test. Parameters saved in the .yaml file will be automatically loaded.
 
