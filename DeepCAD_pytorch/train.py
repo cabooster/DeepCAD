@@ -40,7 +40,7 @@ parser.add_argument('--datasets_folder', type=str, default='DataForPytorch', hel
 parser.add_argument('--datasets_path', type=str, default='datasets', help="dataset root path")
 parser.add_argument('--pth_path', type=str, default='pth', help="pth file root path")
 parser.add_argument('--select_img_num', type=int, default=6000, help='select the number of images')
-parser.add_argument('--train_datasets_size', type=int, default=1200, help='datasets size for training')
+parser.add_argument('--train_datasets_size', type=int, default=1000, help='datasets size for training')
 opt = parser.parse_args()
 
 print('the parameter of your training ----->')
