@@ -78,12 +78,11 @@ $ pip install torch==1.3.1
 $ conda install pytorch torchvision cudatoolkit -c pytorch
 ```
 
-* Install necessary packages
+* Install other dependencies
 
 ```
-$ pip install h5py pyyaml scipy==0.18.1
 $ conda install -c anaconda matplotlib opencv scikit-learn scikit-image
-$ conda install -c conda-forge tensorboardx tifffile
+$ conda install -c conda-forge h5py pyyaml tensorboardx tifffile
 ```
 
 ### Training
