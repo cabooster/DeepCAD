@@ -81,7 +81,13 @@ $ pip install torch==1.3.1 torchvision
 
 ```
 $ pip install scipy==0.18.1
-$ pip install numpy==1.16.2
+$ pip install h5py pyyaml
+$ conda install -c anaconda matplotlib
+$ conda install -c anaconda scikit-learn
+$ conda install -c anaconda opencv
+$ conda install -c conda-forge tensorboardx
+$ conda install -c conda-forge tifffile
+$ conda install -c anaconda scikit-image
 ......
 ```
 
