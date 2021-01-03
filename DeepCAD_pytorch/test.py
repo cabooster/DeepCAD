@@ -41,7 +41,7 @@ parser.add_argument('--pth_path', type=str, default='pth', help="pth file root p
 parser.add_argument('--datasets_folder', type=str, default='DataForPytorch', help="A folder containing files to be tested")
 parser.add_argument('--denoise_model', type=str, default='ModelForPytorch', help='A folder containing models to be tested')
 parser.add_argument('--test_datasize', type=int, default=6000, help='dataset size to be tested')
-parser.add_argument('--train_datasets_size', type=int, default=1200, help='datasets size for training')
+parser.add_argument('--train_datasets_size', type=int, default=1000, help='datasets size for training')
 
 opt = parser.parse_args()
 print('the parameter of your training ----->')
