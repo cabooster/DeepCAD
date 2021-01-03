@@ -63,7 +63,7 @@ DeepCAD
 * Ubuntu 16.04 
 * Python 3.6
 * Pytorch 1.3.1
-* NVIDIA GPU + CUDA
+* NVIDIA GPU (24 GB memory) + CUDA
 
 ### Environment configuration
 
