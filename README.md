@@ -37,13 +37,13 @@ DeepCAD
 |---|---buildingblocks.py
 |---|---utils.py
 |---|---datasets
-|---|---|---qwd_7 #project_name#
-|---|---|---|---train_raw.tif #raw data for train#
+|---|---|---DataForPytorch #project_name#
+|---|---|---|---data.tif
 |---|---pth
-|---|---|---qwd_7_20201115-0913
-|---|---|---|--- #pth model#
+|---|---|---ModelForPytorch
+|---|---|---|---model.pth
 |---|---results
-|---|---|--- #Results of training process and final test#
+|---|---|--- # Intermediate and final results#
 |---DeepCAD_Fiji
 |---|---DeepCAD_Fiji_plugin
 |---|---|---DeepCAD-0.3.0 #executable jar file/.jar#
@@ -63,7 +63,7 @@ DeepCAD
 * Ubuntu 16.04 
 * Python 3.6
 * Pytorch 1.3.1
-* NVIDIA GPU (24 GB memory) + CUDA
+* NVIDIA GPU (24 GB Memory) + CUDA
 
 ### Environment configuration
 
@@ -93,14 +93,13 @@ Run the **script.py (python script.py train)* to begin your train.
 
 ```
 $ source activate pytorch
-$ os.system('python train.py --datasets_folder DataForPytorch --lr 0.00005 \
-    --img_h 64 --img_w 64 --img_s 464 --gap_h 64 --gap_w 64 --gap_s 150 --n_epochs 20 --GPU 0 --normalize_factor 1 --train_datasets_size 1200 --select_img_num 10000')
+$ python script.py test
 ```
 
-Parameters can be modified correctly.
+Parameters can be modified  as required in **script.py**.
 
 ```
-$ os.system('python train.py --datasets_folder #project name# --img_h #stack height# --img_w #stack width# --img_s #stack length# --gap_h #stack gap height# --gap_w #stack gap width# --gap_s #stack gap length# --n_epochs #training epoch number# --GPU #GPU index# --normalize_factor #image normalizefactor# --train_datasets_size #the size of training datasets# --select_img_num #the number of images used for training#')
+$ os.system('python train.py --datasets_folder #A folder containing files fortraining# --img_h #image height# --img_w #image width# --img_s #stack length# --gap_h #stack gap height# --gap_w #stack gap width# --gap_s #stack gap length# --n_epochs #the number of training epochs# --GPU #GPU index# --normalize_factor #normalization factor# --train_datasets_size #datasets size for training# --select_img_num #the number of images used for training#')
 ```
 
 ### Test
@@ -111,14 +110,13 @@ Run the **script.py (python script.py test)** to begin your test. Parameters sav
 
 ```
 $ source activate pytorch
-$ os.system('python test.py --denoise_model ModelForPytorch \
-    --datasets_folder DataForPytorch --datasets_path datasets --pth_path pth --output_dir results --test_datasize 2000')
+$ python script.py test
 ```
 
-Parameters can be modified  as required.
+Parameters can be modified  as required in **script.py**.
 
 ```
-$ os.system('python test.py --denoise_model #pth model name# --test_datasize #the number of images used for test#')
+$ os.system('python test.py --denoise_model #A folder containing models to be tested# --datasets_folder #A folder containing files to be tested# --test_datasize #dataset size to be tested#')
 ```
 
 ## Fiji plugin
