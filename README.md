@@ -74,21 +74,16 @@ Open the terminal of ubuntu system.
 ```
 $ conda create -n pytorch python=3.6
 $ source activate pytorch
-$ pip install torch==1.3.1 torchvision
+$ conda install pytorch torchvision cudatoolkit -c pytorch
+$ pip install torch==1.3.1
 ```
 
 * Install necessary packages
 
 ```
-$ pip install scipy==0.18.1
-$ pip install h5py pyyaml
-$ conda install -c anaconda matplotlib
-$ conda install -c anaconda scikit-learn
-$ conda install -c anaconda opencv
-$ conda install -c conda-forge tensorboardx
-$ conda install -c conda-forge tifffile
-$ conda install -c anaconda scikit-image
-......
+$ pip install h5py pyyaml scipy==0.18.1
+$ conda install -c anaconda matplotlib opencv scikit-learn scikit-image
+$ conda install -c conda-forge tensorboardx tifffile
 ```
 
 ### Training
