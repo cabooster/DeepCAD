@@ -19,30 +19,30 @@ from skimage import io
 parser = argparse.ArgumentParser()
 parser.add_argument("--epoch", type=int, default=0, help="epoch to start training from")
 parser.add_argument("--n_epochs", type=int, default=100, help="number of training epochs")
-parser.add_argument('--GPU', type=int, default=0, help="the index of GPU you will use for computation")
 parser.add_argument('--cuda', action='store_true', help='use GPU computation')
+parser.add_argument('--GPU', type=int, default=0, help="the index of GPU you will use for computation")
 
-parser.add_argument('--output_dir', type=str, default='./results', help="the output folder")
-
-parser.add_argument('--batch_size', type=int, default=1, help="size of the batchs")
+parser.add_argument('--batch_size', type=int, default=1, help="batch size")
 parser.add_argument('--img_s', type=int, default=464, help="the slices of image sequence")
 parser.add_argument('--img_w', type=int, default=64, help="the width of image sequence")
 parser.add_argument('--img_h', type=int, default=64, help="the height of image sequence")
-parser.add_argument('--gap_h', type=int, default=48, help='the height of image gap')
-parser.add_argument('--gap_w', type=int, default=48, help='the width of image gap')
 parser.add_argument('--gap_s', type=int, default=400, help='the slices of image gap')
+parser.add_argument('--gap_w', type=int, default=56, help='the width of image gap')
+parser.add_argument('--gap_h', type=int, default=56, help='the height of image gap')
 
 parser.add_argument('--lr', type=float, default=0.001, help='initial learning rate')
-parser.add_argument("--b1", type=float, default=0.5, help="adam: decay of first order momentum of gradient")
-parser.add_argument("--b2", type=float, default=0.999, help="adam: decay of first order momentum of gradient")
+parser.add_argument("--b1", type=float, default=0.5, help="Adam: bata1")
+parser.add_argument("--b2", type=float, default=0.999, help="Adam: bata2")
 parser.add_argument('--normalize_factor', type=int, default=65535, help='normalize factor')
 
-parser.add_argument('--datasets_path', type=str, default='datasets', help="datasets path")
-parser.add_argument('--pth_path', type=str, default='pth', help="pth file path")
-parser.add_argument('--datasets_folder', type=str, default='3_1.0zoom_depth70um_dendrite_0.3_low_MC', help="datasets folder")
-parser.add_argument('--denoise_model', type=str, default='3_1.0zoom_depth70um_dendrite_0.3_low_MC_20201012-0703', help='denoise model')
-parser.add_argument('--test_datasize', type=int, default=800, help='test dataset size')
-parser.add_argument('--train_datasets_size', type=int, default=1000, help='train datasets size')
+parser.add_argument('--output_dir', type=str, default='./results', help="output directory")
+parser.add_argument('--datasets_path', type=str, default='datasets', help="dataset root path")
+parser.add_argument('--pth_path', type=str, default='pth', help="pth file root path")
+parser.add_argument('--datasets_folder', type=str, default='DataForPytorch', help="A folder containing files to be tested")
+parser.add_argument('--denoise_model', type=str, default='ModelForPytorch', help='A folder containing models to be tested')
+parser.add_argument('--test_datasize', type=int, default=6000, help='dataset size to be tested')
+parser.add_argument('--train_datasets_size', type=int, default=1200, help='datasets size for training')
+
 opt = parser.parse_args()
 print('the parameter of your training ----->')
 print(opt)
@@ -175,8 +175,4 @@ for pth_index in range(len(model_list)):
         input_name = output_path + '//' +pth_name.replace('.pth','')+ '_input.tif'
         io.imsave(result_name, output_img)
         io.imsave(input_name, input_img)
-
-
-
-
 
