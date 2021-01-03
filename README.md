@@ -93,7 +93,7 @@ Run the **script.py (python script.py train)* to begin your train.
 
 ```
 $ source activate pytorch
-$ python script.py test
+$ python script.py train
 ```
 
 Parameters can be modified  as required in **script.py**.
