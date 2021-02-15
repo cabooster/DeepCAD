@@ -5,7 +5,7 @@ The data used for *in silico* histogical staining come in three sets: **trainA, 
 
 |No.   |FOV (V×H)<sup>a</sup>	|Frame rate |	Imaging depth<sup>b</sup>	|Power<sup>c</sup>|AMP<sup>d</sup>|Object           |
 |:----:|  ----                |:----:     | :----:                    | :----:          |:----:         | :----:          | 
-|1	   |550×575 μm	          |30 Hz	    |80 μm	                    |[66]()/[99]() mW	|1	            |Dendrite         |
+|1	   |550×575 μm	          |30 Hz	    |80 μm	                    |66/99 mW	        |1	            |Dendrite         |
 |2	   |550×575 μm	          |30 Hz	    |100 μm	                    |66/99 mW	        |1	            |Soma and dendrite|
 |3	   |550×575 μm	          |30 Hz	    |120 μm	                    |66/99 mW	        |1	            |Soma             |
 |4	   |550×575 μm	          |30 Hz	    |140 μm	                    |66/99 mW	        |1	            |Soma             |
