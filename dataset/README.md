@@ -14,7 +14,7 @@ The data used for *in silico* histogical staining come in three sets: **trainA, 
 |7	   |550×575 μm	          |30 Hz	    |200 μm	                    |99/132 mW	      |10	            |Soma             |
 |8	   |550×575 μm	          |30 Hz	    |200 μm	                    |99/132 mW	      |10	            |Soma             |
 |9	   |550×575 μm	          |30 Hz	    |150 μm	                    |66/99 mW	        |10	            |Soma             |
-|10	   |550×575 μm	          |30 Hz	    |170 μm	                    |66/99 mW	        |10	            |Soma             |
+|10	   |550×575 μm	          |30 Hz	    |170 μm	                    |99 mW	          |10	            |Soma             |
 |11	   |550×575 μm	          |30 Hz	    |80 μm	                    |66/99 mW	        |10	            |Dendrite         |
 |12	   |550×575 μm	          |30 Hz	    |110 μm	                    |66/99 mW	        |10	            |Soma and dendrite|
 |13	   |550×575 μm	          |30 Hz	    |185 μm	                    |99/132 mW	      |10	            |Soma             |
