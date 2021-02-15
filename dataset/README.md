@@ -21,3 +21,7 @@ The data used for *in silico* histogical staining come in three sets: **trainA, 
 |14	|550×575 μm	  |30 Hz	    |210 μm	  |99/132 mW	|10	    |Soma             |
 
 If your Chrome misunderstands the security of the download, you can change its security settings or use other browsers.
+
+If you use this data, please cite our paper:
+["*Reinforcing neuron extraction and spike inference in calcium imaging using deep self-supervised learning*".](https://www.biorxiv.org/content/10.1101/2020.11.16.383984v1)
+
