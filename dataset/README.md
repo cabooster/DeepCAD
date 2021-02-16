@@ -1,6 +1,6 @@
 # Data download guide
 
-The data used for training and validation of DeepCAD are made publicly available here. These data were captured by our customized two-photon microscope with two strictly synchronized detection path. The signal intensity of the high-SNR path is about 10-fold higher than that of the low-SNR path. We provided 14 groups of recordings with various imaging depths, excitation power, and cell structures. All data are listed in the table below. You can download these data directly by clicking the hyperlinks appended in the `Power` column.   
+The data used for training and validation of DeepCAD are made publicly available here. These data were captured by our customized two-photon microscope with two strictly synchronized detection path. The signal intensity of the high-SNR path is about 10-fold higher than that of the low-SNR path. We provided 14 groups of recordings with various imaging depths, excitation power, and cell structures. All data are listed in the table below. You can download these data directly by clicking the `hyperlinks appended in the Power column`.   
 
 |No.   |FOV (V×H)<sup>a</sup>	|Frame rate |	Imaging depth<sup>b</sup>	|Power<sup>c</sup>|AMP<sup>d</sup>|Structures           |
 |:----:|  ----                |:----:     | :----:                    | :----:          |:----:         | :----:          | 
