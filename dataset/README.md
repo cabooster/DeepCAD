@@ -1,7 +1,6 @@
 # Data download guide
 
-The data used for *in silico* histogical staining come in three sets: **trainA, trainB, testA**. We provide download links for each set.
-
+The data used for training and validation of DeepCAD are made publicly available here. These data were captured by our customized two-photon microscope with two strictly synchronized detection path. The signal intensity of the high-SNR path is about 10-fold higher than that of the low-SNR path. We provided 14 groups of recordings with various imaging depths, excitation power, and cell structures. All data are listed in the table below. You can download these data directly by clicking the hyperlinks appended in the `Power` column.   
 
 |No.   |FOV (V×H)<sup>a</sup>	|Frame rate |	Imaging depth<sup>b</sup>	|Power<sup>c</sup>|AMP<sup>d</sup>|Object           |
 |:----:|  ----                |:----:     | :----:                    | :----:          |:----:         | :----:          | 
@@ -25,7 +24,6 @@ b.	Depth: imaging depth below the pia mater.
 c.	Two different excitation powers were used in each experiment for data diversity.
 d.	AMP: the amplifier gain of the two PMTs.
 ```
-If your browser misunderstands the security of the download, please change its security settings or use other browsers.
 
 ## Citing the data
 If you use this data, please cite our paper:
