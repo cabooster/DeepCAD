@@ -33,7 +33,7 @@ class UNet3D(nn.Module):
         num_groups (int): number of groups for the GroupNorm
     """
 
-    def __init__(self, in_channels, out_channels, final_sigmoid, f_maps=64, layer_order='crg', num_groups=8,
+    def __init__(self, in_channels, out_channels, final_sigmoid, f_maps=64, layer_order='cr', num_groups=8,
                  **kwargs):
         super(UNet3D, self).__init__()
 
