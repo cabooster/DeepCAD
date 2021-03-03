@@ -77,7 +77,7 @@ class SingleConv(nn.Sequential):
         num_groups (int): number of groups for the GroupNorm
     """
 
-    def __init__(self, in_channels, out_channels, kernel_size=3, order='crg', num_groups=8, padding=1):
+    def __init__(self, in_channels, out_channels, kernel_size=3, order='cr', num_groups=8, padding=1):
         super(SingleConv, self).__init__()
 
         for name, module in create_conv(in_channels, out_channels, kernel_size, order, num_groups, padding=padding):
@@ -106,7 +106,7 @@ class DoubleConv(nn.Sequential):
         num_groups (int): number of groups for the GroupNorm
     """
 
-    def __init__(self, in_channels, out_channels, encoder, kernel_size=3, order='crg', num_groups=8):
+    def __init__(self, in_channels, out_channels, encoder, kernel_size=3, order='cr', num_groups=8):
         super(DoubleConv, self).__init__()
         if encoder:
             # we're in the encoder path
@@ -197,7 +197,7 @@ class Encoder(nn.Module):
     """
 
     def __init__(self, in_channels, out_channels, conv_kernel_size=3, apply_pooling=True,
-                 pool_kernel_size=(2, 2, 2), pool_type='max', basic_module=DoubleConv, conv_layer_order='crg',
+                 pool_kernel_size=(2, 2, 2), pool_type='max', basic_module=DoubleConv, conv_layer_order='cr',
                  num_groups=8):
         super(Encoder, self).__init__()
         assert pool_type in ['max', 'avg']
@@ -241,7 +241,7 @@ class Decoder(nn.Module):
     """
 
     def __init__(self, in_channels, out_channels, kernel_size=3,
-                 scale_factor=(2, 2, 2), basic_module=DoubleConv, conv_layer_order='crg', num_groups=8):
+                 scale_factor=(2, 2, 2), basic_module=DoubleConv, conv_layer_order='cr', num_groups=8):
         super(Decoder, self).__init__()
         if basic_module == DoubleConv:
             # if DoubleConv is the basic_module use nearest neighbor interpolation for upsampling
@@ -301,7 +301,7 @@ class FinalConv(nn.Sequential):
         num_groups (int): number of groups for the GroupNorm
     """
 
-    def __init__(self, in_channels, out_channels, kernel_size=3, order='crg', num_groups=8):
+    def __init__(self, in_channels, out_channels, kernel_size=3, order='cr', num_groups=8):
         super(FinalConv, self).__init__()
 
         # conv1
