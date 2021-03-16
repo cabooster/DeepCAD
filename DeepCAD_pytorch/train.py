@@ -82,7 +82,6 @@ optimizer_G = torch.optim.Adam( denoise_generator.parameters(),
                                 lr=opt.lr, betas=(opt.b1, opt.b2))
 ########################################################################################################################
 
-lambda_pixel = 100
 cuda = True if torch.cuda.is_available() else False
 Tensor = torch.cuda.FloatTensor if cuda else torch.FloatTensor
 prev_time = time.time()
@@ -117,7 +116,7 @@ for epoch in range(opt.epoch, opt.n_epochs):
         ################################################################################################################
         optimizer_G.zero_grad()
         # Total loss
-        Total_loss = lambda_pixel * L1_loss + L2_loss * lambda_pixel
+        Total_loss =  0.5*L1_loss + 0.5*L2_loss
         Total_loss.backward()
         optimizer_G.step()
         ################################################################################################################
