@@ -23,10 +23,10 @@ parser.add_argument('--cuda', action='store_true', help='use GPU computation')
 parser.add_argument('--GPU', type=int, default=0, help="the index of GPU you will use for computation")
 
 parser.add_argument('--batch_size', type=int, default=1, help="batch size")
-parser.add_argument('--img_s', type=int, default=464, help="the slices of image sequence")
+parser.add_argument('--img_s', type=int, default=300, help="the slices of image sequence")
 parser.add_argument('--img_w', type=int, default=64, help="the width of image sequence")
 parser.add_argument('--img_h', type=int, default=64, help="the height of image sequence")
-parser.add_argument('--gap_s', type=int, default=400, help='the slices of image gap')
+parser.add_argument('--gap_s', type=int, default=225, help='the slices of image gap')
 parser.add_argument('--gap_w', type=int, default=56, help='the width of image gap')
 parser.add_argument('--gap_h', type=int, default=56, help='the height of image gap')
 
