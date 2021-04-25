@@ -82,7 +82,7 @@ $ conda install pytorch torchvision cudatoolkit -c pytorch
 
 ```
 $ conda install -c anaconda matplotlib opencv scikit-learn scikit-image
-$ conda install -c conda-forge h5py pyyaml tensorboardx tifffile
+$ conda install -c conda-forge h5py pyyaml tensorboardx tifffile opencv
 ```
 
 ### Training
