@@ -74,7 +74,7 @@ Open the terminal of ubuntu system.
 ```
 $ conda create -n pytorch python=3.6
 $ source activate pytorch
-$ pip install torch==1.3.1 torchsummary
+$ pip install torch==1.3.1
 $ conda install pytorch torchvision cudatoolkit -c pytorch
 ```
 
