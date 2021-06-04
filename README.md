@@ -113,7 +113,7 @@ $ source activate pytorch
 $ python script.py test
 ```
 
-Parameters can be modified  as required in **script.py**.
+Parameters can be modified  as required in **script.py**. All models in the `--denoise_model` folder will be tested and manual inspection should be made for **model screening**.
 
 ```
 $ os.system('python test.py --denoise_model #A folder containing models to be tested# --datasets_folder #A folder containing files to be tested# --test_datasize #dataset size to be tested#')
