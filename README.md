@@ -158,9 +158,6 @@ Since imaging systems and experiment conditions varies, a customized DeepCAD mod
 
 <img src="images/soma.png" width="800" align="middle">
 
-### 3. Cross-system validation.
-
-<img src="images/cross-system.png" width="700" align="middle">
 
 ## Citation
 
