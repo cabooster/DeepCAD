@@ -121,7 +121,7 @@ $ os.system('python test.py --denoise_model #A folder containing models to be te
 
 ## Fiji plugin
 
-To ameliorate the difficulty of using our deep self-supervised learning-based method, we developed a user-friendly Fiji plugin, which is easy to install and convenient to use (has been tested on a Windows desktop with Intel i9 CPU and 128G RAM). Researchers without expertise in computer science and machine learning can manage it in a very short time. Tutorials on installing and using the plugin can be found [here](https://github.com/cabooster/DeepCAD/tree/master/DeepCAD_Fiji).
+To ameliorate the difficulty of using our deep self-supervised learning-based method, we developed a user-friendly Fiji plugin, which is easy to install and convenient to use (has been tested on a Windows desktop with Intel i9 CPU and 128G RAM). Researchers without expertise in computer science and machine learning can manage it in a very short time. **Tutorials** on installing and using the plugin can be found [**here**](https://github.com/cabooster/DeepCAD/tree/master/DeepCAD_Fiji).
 
 <img src="https://github.com/cabooster/DeepCAD/blob/master/images/fiji.png" width="1000" align="middle">
 
