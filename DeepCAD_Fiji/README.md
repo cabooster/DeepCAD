@@ -1,4 +1,4 @@
-## DeeoCAD Fiji plugin
+# DeeoCAD Fiji plugin
 
 To ameliorate the difficulty of using our deep self-supervised learning-based method, we developed a user-friendly Fiji plugin, which is easy to install and convenient to use (has been tested on a Windows desktop with Intel i9 CPU and 128G RAM). Researchers without expertise in computer science and machine learning can manage it in a very short time. 
 
