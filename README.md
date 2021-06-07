@@ -1,6 +1,6 @@
 # DeepCAD: 
 
-<img src="images/logo.PNG" width="800" align="middle">
+<img src="images/logo.PNG" width="900" align="middle">
 
 ## Contents
 
