@@ -72,8 +72,8 @@ Open the terminal of ubuntu system.
 * Install Pytorch
 
 ```
-$ conda create -n pytorch python=3.6
-$ source activate pytorch
+$ conda create -n deepcad python=3.6
+$ source activate deepcad
 $ pip install torch==1.3.1
 $ conda install pytorch torchvision cudatoolkit -c pytorch
 ```
@@ -92,7 +92,7 @@ Download the demo data(.tif file) [[DataForPytorch](https://drive.google.com/dri
 Run the **script.py (python script.py train)* to begin your train.
 
 ```
-$ source activate pytorch
+$ source activate deepcad
 $ python script.py train
 ```
 
@@ -109,7 +109,7 @@ Download our pre-trained model (.pth file and .yaml file) [[ModelForPytorch](htt
 Run the **script.py (python script.py test)** to begin your test. Parameters saved in the .yaml file will be automatically loaded.
 
 ```
-$ source activate pytorch
+$ source activate deepcad
 $ python script.py test
 ```
 
