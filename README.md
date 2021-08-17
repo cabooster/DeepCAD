@@ -69,7 +69,7 @@ DeepCAD
 
 Open the terminal of ubuntu system.
 
-* Create a virtual environment and install Pytorch. Please choose the correct Pytorch version that matches youe CUDA version from https://pytorch.org/get-started/previous-versions/
+* Create a virtual environment and install Pytorch. Please choose the correct Pytorch version that matches your CUDA version from https://pytorch.org/get-started/previous-versions/
 
 ```
 $ conda create -n deepcad python=3.6
