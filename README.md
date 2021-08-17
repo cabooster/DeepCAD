@@ -96,7 +96,7 @@ $ source activate deepcad
 $ python script.py train
 ```
 
-Parameters can be modified  as required in **script.py**. If your GPU is running out of memory, you can use smaller `img_h`, `img_w`, `img_s` and `--gap_h, --gap_h, --gap_s`.
+Parameters can be modified  as required in **script.py**. If your GPU is running out of memory, you can use smaller `img_h`, `img_w`, `img_s` and `gap_h`, `gap_h`, `gap_s`.
 
 ```
 $ os.system('python train.py --datasets_folder #A folder containing files fortraining# --img_h #image height# --img_w #image width# --img_s #stack length# --gap_h #stack gap height# --gap_w #stack gap width# --gap_s #stack gap length# --n_epochs #the number of training epochs# --GPU #GPU index# --normalize_factor #normalization factor# --train_datasets_size #datasets size for training# --select_img_num #the number of images used for training#')
@@ -106,7 +106,7 @@ $ os.system('python train.py --datasets_folder #A folder containing files fortra
 
 Download our pre-trained model (.pth file and .yaml file) [[ModelForPytorch](https://drive.google.com/drive/folders/12LEFsAopTolaRyRpJtFpzOYH3tBZMGUP)] and put it into *DeepCAD_pytorch/pth/ModelForPytorch*.
 
-Run the **script.py (python script.py test)** to begin your test. Parameters saved in the .yaml file will be automatically loaded. If your GPU is running out of memory, you can use smaller `img_h`, `img_w`, `img_s` and `--gap_h, --gap_h, --gap_s`.
+Run the **script.py (python script.py test)** to begin your test. Parameters saved in the .yaml file will be automatically loaded. If your GPU is running out of memory, you can use smaller `img_h`, `img_w`, `img_s` and `gap_h`, `gap_h`, `gap_s`.
 
 ```
 $ source activate deepcad
