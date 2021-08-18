@@ -82,12 +82,18 @@ $ conda install pytorch torchvision cudatoolkit -c pytorch
 $ conda install -c anaconda matplotlib opencv scikit-learn scikit-image
 $ conda install -c conda-forge h5py pyyaml tensorboardx tifffile
 ```
+### Download source code
+
+```
+$ git clone git://github.com/cabooster/DeepCAD
+$ cd DeepCAD/DeepCAD_pytorch/
+```
 
 ### Training
 
 Download the demo data(.tif file) [[DataForPytorch](https://drive.google.com/drive/folders/1w9v1SrEkmvZal5LH79HloHhz6VXSPfI_)] and put it into *DeepCAD_pytorch/datasets/DataForPytorch.*.
 
-Run the **script.py (python script.py train)* to begin your train.
+Run the **script.py** to start training.
 
 ```
 $ source activate deepcad
