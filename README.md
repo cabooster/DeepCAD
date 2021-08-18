@@ -67,8 +67,6 @@ DeepCAD
 
 ### Environment configuration
 
-Open the terminal of ubuntu system.
-
 * Create a virtual environment and install Pytorch. In the 4th step, please select the correct Pytorch version that matches your CUDA version from https://pytorch.org/get-started/previous-versions/
 
 ```
