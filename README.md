@@ -103,7 +103,18 @@ $ python script.py train
 Parameters can be modified  as required in **script.py**. If your GPU is running out of memory, you can use smaller `img_h`, `img_w`, `img_s` and `gap_h`, `gap_h`, `gap_s`.
 
 ```
-$ os.system('python train.py --datasets_folder #A folder containing files fortraining# --img_h #image height# --img_w #image width# --img_s #stack length# --gap_h #stack gap height# --gap_w #stack gap width# --gap_s #stack gap length# --n_epochs #the number of training epochs# --GPU #GPU index# --normalize_factor #normalization factor# --train_datasets_size #datasets size for training# --select_img_num #the number of images used for training#')
+$ os.system('python train.py --datasets_folder --img_h --img_w --img_s --gap_h --gap_w --gap_s --n_epochs --GPU --normalize_factor --train_datasets_size --select_img_num')
+
+@parameters
+--datasets_folder: the folder containing your training data (one or more stacks)
+--img_h, --img_w, --img_s: patch size in three dimensions
+--gap_h, --gap_w, --gap_s: the spacing to extract training patches from the input stack(s)
+--n_epochs: the number of training epochs
+--GPU: specify GPU(s) used for training
+--lr: learning rate, please use the default value
+--normalize_factor: a constant for image normalization
+--training_datasets_size: the number of patches you extracted for training
+--select_img_num: the number of slices used for training.
 ```
 
 ### Test
@@ -120,7 +131,14 @@ $ python script.py test
 Parameters can be modified  as required in **script.py**. All models in the `--denoise_model` folder will be tested and manual inspection should be made for **model screening**.
 
 ```
-$ os.system('python test.py --denoise_model #A folder containing models to be tested# --datasets_folder #A folder containing files to be tested# --test_datasize #dataset size to be tested#')
+$ os.system('python test.py --denoise_model --datasets_folder --test_datasize')
+
+@parameters
+--denoise_model: the folder containing all the pre-trained models.
+--datasets_folder: the folder containing the testing data (one or more stacks).
+--test_datasize: the number of frames used for testing
+--img_h, --img_w, --img_s: patch size in three dimensions
+--gap_h, --gap_w, --gap_s: the spacing to extract test patches from the input stack(s)
 ```
 
 ## Fiji plugin
