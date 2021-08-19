@@ -110,7 +110,7 @@ $ os.system('python train.py --datasets_folder --img_h --img_w --img_s --gap_h -
 --img_h, --img_w, --img_s: patch size in three dimensions
 --gap_h, --gap_w, --gap_s: the spacing to extract training patches from the input stack(s)
 --n_epochs: the number of training epochs
---GPU: specify GPU(s) used for training
+--GPU: specify the GPU used for training
 --lr: learning rate, please use the default value
 --normalize_factor: a constant for image normalization
 --training_datasets_size: the number of patches you extracted for training
