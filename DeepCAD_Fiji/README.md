@@ -16,7 +16,7 @@ We provide lightweight data for test.  Please download the demo data (.tif) [[Da
 
 1.  Open Fiji.
 2.  Open the calcium imaging stack to be denoised.
-3.  Open the plugin at **Plugins > DeepCAD**. Six parameters will be shown on the panel (with default values and no changes are required unless necessary).
+3.  Open the plugin at **Plugins > DeepCAD**. The six parameters will be shown on the panel (with default values and no changes are required unless necessary).
 4.  Specify the pre-trained model using the '*Browse*' button (select the .zip file). 
 5.  Click ‘OK’ and the denoised result will be displayed in another window after processing (processing time depends on the data size).
 <img src="https://github.com/cabooster/DeepCAD/blob/master/images/parameter.png" width="650" align="middle">
