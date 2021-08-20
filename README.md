@@ -58,6 +58,8 @@ DeepCAD
 
 ## Pytorch code
 
+We recommend implementing DeepCAD with the PyTorch code.
+
 ### Environment 
 
 * Ubuntu 16.04 
