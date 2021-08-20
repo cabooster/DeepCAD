@@ -58,7 +58,7 @@ DeepCAD
 
 ## Pytorch code
 
-We recommend implementing DeepCAD with the PyTorch code.
+We recommend implementing DeepCAD with this PyTorch code.
 
 ### Environment 
 
