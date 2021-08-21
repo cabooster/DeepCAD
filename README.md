@@ -16,8 +16,6 @@ This is the **upgraded version** of the original [DeepCAD Pytorch code](https://
 - [Overview](#overview)
 - [Directory structure](#directory-structure)
 - [Pytorch code](#pytorch-code)
-- [Fiji plugin](#fiji-plugin)
-- [Results](#results)
 - [License](./LICENSE)
 - [Citation](#citation)
 
