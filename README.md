@@ -60,7 +60,7 @@ DeepCAD
 
 The PyTorch code is the recommended implementation of DeepCAD. 
 
-**An upgraded version of this PyTorch code is released at another repository [[new code link]](https://github.com/cabooster/DeepCAD-RT), with several new feature such as much faster processing speed, low memory cost, improved pre- and post processing, multi-GPU acceleration, etc**.
+**An upgraded version of this PyTorch code has been released and managed at another repository [[new code link]](https://github.com/cabooster/DeepCAD-RT), with several new features such as much faster processing speed, low memory cost, improved pre- and post processing, multi-GPU acceleration, etc**.
 
 ### Environment 
 
