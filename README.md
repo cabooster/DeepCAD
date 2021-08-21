@@ -7,6 +7,8 @@
 - [Overview](#overview)
 - [Directory structure](#directory-structure)
 - [Pytorch code](#pytorch-code)
+- [Fiji plugin](#fiji-plugin)
+- [Results](#results)
 - [License](./LICENSE)
 - [Citation](#citation)
 
@@ -56,7 +58,7 @@ DeepCAD
 
 ## Pytorch code 
 
-The PyTorch code is the recommended implementation of DeepCAD. 
+PyTorch code is the recommended implementation of DeepCAD. 
 
 ### [[New version released!]](https://github.com/cabooster/DeepCAD-RT)
 **An upgraded version of this PyTorch code has been released and managed at another repository [[new code link]](https://github.com/cabooster/DeepCAD-RT), with several new features such as much faster processing speed, low memory cost, improved pre- and post processing, multi-GPU acceleration, etc**.
