@@ -1,14 +1,5 @@
 # DeepCAD: Deep self-supervised learning for calcium imaging denoising
 
-This is the **upgraded version** of the original [DeepCAD Pytorch code](https://github.com/cabooster/DeepCAD). We have made extensive updates and the new features including:
-- More stable performance
-- Much faster processing speed 
-- Much lower memory cost 
-- Improved pre- and post processing
-- Multi-GPU acceleration
-- Less parameters
-- ...
-
 <img src="images/logo.PNG" width="800" align="middle">
 
 ## Contents
@@ -63,10 +54,11 @@ DeepCAD
   - **DeepCAD_java** is the java source code of our Fiji plugin based on [CSBDeep](https://csbdeep.bioimagecomputing.com). 
   - **DeepCAD_tensorflow** is the [Tensorflow](https://www.tensorflow.org/) implementation of DeepCAD, which is used for training models compatible with the Fiji plugin. 
 
-## Pytorch code [[New version released!]](https://github.com/cabooster/DeepCAD-RT)
+## Pytorch code 
 
 The PyTorch code is the recommended implementation of DeepCAD. 
 
+### [[New version released!]](https://github.com/cabooster/DeepCAD-RT)
 **An upgraded version of this PyTorch code has been released and managed at another repository [[new code link]](https://github.com/cabooster/DeepCAD-RT), with several new features such as much faster processing speed, low memory cost, improved pre- and post processing, multi-GPU acceleration, etc**.
 
 ### Environment 
