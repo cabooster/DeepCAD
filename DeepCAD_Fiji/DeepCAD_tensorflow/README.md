@@ -40,7 +40,7 @@ $ conda create -n tensorflow python=3.6
 
 ```
 $ source activate tensorflow
-$ conda install tensorflow-gpu=1.4
+$ pip install tensorflow-gpu==1.4.0
 ```
 
 ### Training
