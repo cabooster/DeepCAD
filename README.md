@@ -1,4 +1,4 @@
-## DeepCAD: Deep self-supervised learning for Calcium imaging denoising
+# DeepCAD: Deep self-supervised learning for calcium imaging denoising
 
 <img src="images/logo.PNG" width="800" align="middle">
 
