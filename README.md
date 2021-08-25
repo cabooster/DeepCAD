@@ -174,3 +174,14 @@ Denoising performance of DeepCAD on three two-photon laser-scanning microscopes 
 If you use this code please cite the companion paper where the original method appeared: 
 
 Li, X., Zhang, G., Wu, J. et al. Reinforcing neuron extraction and spike inference in calcium imaging using deep self-supervised denoising. Nat Methods (2021). [https://doi.org/10.1038/s41592-021-01225-0](https://www.nature.com/articles/s41592-021-01225-0)
+
+```
+@article{li2021reinforcing,
+  title={Reinforcing neuron extraction and spike inference in calcium imaging using deep self-supervised denoising},
+  author={Li, Xinyang and Zhang, Guoxun and Wu, Jiamin and Zhang, Yuanlong and Zhao, Zhifeng and Lin, Xing and Qiao, Hui and Xie, Hao and Wang, Haoqian and Fang, Lu and others},
+  journal={Nature Methods},
+  pages={1--6},
+  year={2021},
+  publisher={Nature Publishing Group}
+}
+```
