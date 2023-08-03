@@ -2,7 +2,7 @@
 
 <img src="images/logo.PNG" width="800" align="middle">
 
-### :triangular_flag_on_post: [[New version released!]](https://github.com/cabooster/DeepCAD-RT)
+### :triangular_flag_on_post: [[New version released! ：DeepCAD-RT]](https://github.com/cabooster/DeepCAD-RT)
 
 ## Contents
 
